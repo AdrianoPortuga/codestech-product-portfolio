@@ -1,16 +1,31 @@
 # WhatsBot AI
 
-## Overview
+## Executive Summary
 
-WhatsBot AI is a conversational automation case designed for WhatsApp-centered service, lead qualification and guided response workflows.
+WhatsBot AI is a conversational automation case designed for structured response, qualification and operational handoff in messaging environments. The public case focuses on product reasoning, high-level workflow design and business value rather than implementation detail. It presents a reusable model for reducing friction in lead and service conversations.
 
-## Problem
+## Business Context
 
-Teams handling high volumes of inbound conversations need consistent triage, faster first response and better routing into sales, support or learning processes.
+Teams operating through WhatsApp and similar channels often face inconsistent first response, repeated manual triage and poor continuity between conversation, qualification and action. This creates delays, missed opportunities and unnecessary operational noise.
 
-## Solution
+## Product Challenge
 
-The solution uses a conversation engine with business rules, contextual flows and integration-ready architecture to support automated and assisted responses.
+The challenge was to organize a conversational product layer that could support business rules, qualification logic, automation and human handoff without collapsing into a generic chatbot pattern.
+
+## Product Response
+
+The solution frames WhatsBot AI as a conversation engine with routing rules, AI-assisted flows and integration readiness. Instead of treating messaging as a standalone channel, the case treats it as an operational entry layer connected to qualification and follow-up logic.
+
+## High-Level Architecture
+
+```mermaid
+flowchart LR
+    A[Lead / User] --> B[WhatsApp Channel]
+    B --> C[Conversation Engine]
+    C --> D[Qualification Rules]
+    D --> E[CRM / Human Handoff]
+    E --> F[Follow-up]
+```
 
 ## Target Users
 
@@ -26,26 +41,17 @@ The solution uses a conversation engine with business rules, contextual flows an
 - Conversation logging and guardrails
 - Integration-ready service layer
 
-## Product Architecture
-
-```mermaid
-flowchart LR
-    A[WhatsApp User] --> B[Messaging Gateway]
-    B --> C[Conversation Engine]
-    C --> D[Business Rules]
-    C --> E[AI Workflows]
-    C --> F[CRM / Automation Destinations]
-```
-
 ## Tech Stack
 
-- Frontend: to be confirmed
+- Frontend: `to be confirmed`
 - Backend: Python, FastAPI
-- Database: PostgreSQL, to be confirmed
-- Automation / AI: OpenAI, WhatsApp APIs, Make/n8n, to be confirmed
-- Deploy: Render, Cloudflare, to be confirmed
+- Database: PostgreSQL, `to be confirmed`
+- Automation / AI: OpenAI, WhatsApp APIs, Make/n8n, `to be confirmed`
+- Deploy: Render, Cloudflare, `to be confirmed`
 
-## My Role
+## Product Role
+
+Adriano's role in this case is positioned across:
 
 - Product Owner
 - Founder / Product Builder
@@ -56,7 +62,15 @@ flowchart LR
 
 ## Business Value
 
-Improves response consistency, reduces manual load and creates a cleaner bridge between conversation channels and operational systems.
+This case demonstrates how conversational automation can improve operational consistency, create cleaner qualification logic and support better transition from channel interaction to business action.
+
+## Expected Impact / Projected KPIs
+
+- Reduce manual follow-up friction
+- Improve lead response consistency
+- Support more structured routing and handoff
+- Increase operational visibility across conversations
+- Target metric to be validated: reduce manual triage time by up to X% after pilot validation
 
 ## Status
 
@@ -74,4 +88,4 @@ To be added.
 
 ## Confidentiality Note
 
-This public case study does not include private source code, credentials, production data or client-sensitive information.
+This public case study does not include private source code, credentials, production data, internal endpoints or client-sensitive information.

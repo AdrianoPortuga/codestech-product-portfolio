@@ -4,469 +4,431 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adriano Correa | Codestech Product & AI Portfolio</title>
-  <meta name="description" content="Executive, documentation-first portfolio for product ownership, AI automation, SaaS platforms, APIs, integrations and strategic delivery by Adriano Correa.">
-  <meta property="og:title" content="Adriano Correa | Codestech Product & AI Portfolio">
-  <meta property="og:description" content="Public portfolio for recruiters, partners and clients. High-level product architecture, business value and execution strategy without exposing private production code.">
+  <meta name="description" content="Executive portfolio with public case studies in AI automation, SaaS platforms, APIs, hospitality tech, funding strategy and product architecture.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://adrianoportuga.github.io/codestech-product-portfolio/">
-  <!-- og:image: to be confirmed. Add a real 1200x630 asset before enabling this tag. -->
+  <meta property="og:title" content="Adriano Correa | Codestech Product & AI Portfolio">
+  <meta property="og:description" content="A documentation-first portfolio showcasing Codestech product strategy, AI automation, SaaS architecture and business-oriented digital solutions without exposing private production code.">
+  <!-- TODO: add a real og:image asset in assets/og/1200x630 before enabling this tag. -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Adriano Correa | Codestech Product & AI Portfolio">
-  <meta name="twitter:description" content="Documentation-first executive portfolio for AI automation, SaaS, APIs and strategic delivery.">
+  <meta name="twitter:description" content="Executive portfolio with public case studies in AI automation, SaaS platforms, APIs, hospitality tech, funding strategy and product architecture.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            deep: "#07111f",
-            panel: "#0d1728",
-            line: "#1e2e4a",
-            accent: "#38bdf8",
-            accent2: "#22c55e",
-            muted: "#9fb0c8"
+            deep: "#050816",
+            ink: "#0b1220",
+            panel: "#0f172a",
+            line: "#1e293b"
           },
           boxShadow: {
-            glow: "0 20px 50px rgba(56, 189, 248, 0.12)"
+            glass: "0 20px 60px rgba(16, 185, 129, 0.10)"
           }
         }
       }
     }
   </script>
 </head>
-<body class="bg-deep text-slate-100 selection:bg-sky-400/30">
-  <div class="min-h-screen bg-[radial-gradient(circle_at_top_right,_rgba(56,189,248,0.12),_transparent_25%),radial-gradient(circle_at_top_left,_rgba(34,197,94,0.10),_transparent_20%)]">
-    <header class="sticky top-0 z-50 border-b border-line/80 bg-deep/90 backdrop-blur">
-      <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
+<body class="bg-deep text-slate-100">
+  <div class="min-h-screen bg-[radial-gradient(circle_at_top_right,_rgba(16,185,129,0.12),_transparent_22%),radial-gradient(circle_at_top_left,_rgba(6,182,212,0.12),_transparent_18%),linear-gradient(180deg,#050816_0%,#08101f_100%)]">
+    <header class="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/75 backdrop-blur-md">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4">
         <a href="#top" class="flex items-center gap-3">
-          <span class="grid h-10 w-10 place-items-center rounded-full border border-sky-400/30 bg-sky-500/10">
+          <span class="grid h-10 w-10 place-items-center rounded-2xl border border-emerald-500/30 bg-slate-900/80 shadow shadow-emerald-500/10">
             <span class="h-3 w-3 rotate-45 border-2 border-slate-100"></span>
           </span>
-          <span>
-            <span class="block text-sm uppercase tracking-[0.18em] text-sky-300">Codestech</span>
-            <strong class="text-sm sm:text-base">Product & AI Portfolio</strong>
-          </span>
+          <div>
+            <div class="text-xs font-semibold uppercase tracking-[0.24em] text-emerald-300">Codestech</div>
+            <div class="text-sm font-semibold text-white sm:text-base">Product & AI Portfolio</div>
+          </div>
         </a>
         <nav class="hidden gap-5 text-sm text-slate-300 md:flex">
-          <a class="hover:text-white" href="#projects">Projects</a>
-          <a class="hover:text-white" href="#method">Method</a>
-          <a class="hover:text-white" href="#trust">Security</a>
-          <a class="hover:text-white" href="#contact">Contact</a>
+          <a class="transition-colors hover:text-white" href="#projects">Projects</a>
+          <a class="transition-colors hover:text-white" href="#trust">Trust</a>
+          <a class="transition-colors hover:text-white" href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
     <main id="top" class="mx-auto max-w-7xl px-6 py-10 sm:py-14">
-      <section class="grid gap-8 lg:grid-cols-[1.2fr_.8fr]">
-        <div class="rounded-3xl border border-line bg-panel/90 p-8 shadow-glow">
-          <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Documentation-first portfolio</span>
-          <h1 class="mt-5 text-4xl font-black tracking-tight sm:text-6xl">Adriano Correa</h1>
-          <p class="mt-3 text-xl font-semibold text-slate-200 sm:text-2xl">Codestech Product & AI Portfolio</p>
-          <p class="mt-3 text-base text-muted sm:text-lg">Product Owner | AI Automation | SaaS Builder | Implementation Consultant | Founder</p>
-          <p class="mt-6 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">Executive public portfolio for product cases, automation systems, APIs, integrations and strategic project structuring. Built to show business value, high-level architecture, delivery logic and decision quality without exposing private production code.</p>
+      <section class="grid gap-6 lg:grid-cols-[1.15fr_.85fr]">
+        <div class="rounded-3xl border border-slate-800 bg-slate-900/80 p-8 shadow shadow-emerald-500/10 backdrop-blur-md">
+          <span class="inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Public portfolio · Private production code protected</span>
+          <h1 class="mt-5 text-4xl font-black tracking-tight text-white sm:text-6xl">Adriano Correa</h1>
+          <p class="mt-3 text-xl font-semibold text-cyan-100 sm:text-2xl">Codestech Product & AI Portfolio</p>
+          <p class="mt-4 text-sm leading-7 text-slate-300 sm:text-base">Product Owner | AI Automation | SaaS Builder | Implementation Consultant | Founder</p>
+          <p class="mt-6 max-w-3xl text-sm leading-7 text-slate-400 sm:text-base">This executive portfolio showcases product thinking, high-level architecture, business value and delivery structure across AI automation, SaaS platforms, APIs, integrations and strategic initiatives without exposing private production code.</p>
           <div class="mt-8 flex flex-wrap gap-3">
-            <a href="#projects" class="rounded-xl border border-sky-400/40 bg-sky-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-400">View Featured Projects</a>
-            <a href="https://www.linkedin.com/in/adriano-correa-39174956/" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-line bg-slate-900/60 px-5 py-3 text-sm font-semibold text-white transition hover:border-sky-400/40 hover:text-sky-200">Connect on LinkedIn</a>
+            <a href="#projects" class="rounded-2xl border border-emerald-400/30 bg-emerald-400 px-5 py-3 text-sm font-semibold text-slate-950 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/20">View Portfolio</a>
+            <a href="https://www.linkedin.com/in/adriano-correa-39174956/" target="_blank" rel="noopener noreferrer" class="rounded-2xl border border-slate-700 bg-slate-900/80 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:border-cyan-500/50 hover:shadow-lg hover:shadow-cyan-500/20">Connect on LinkedIn</a>
           </div>
-          <p class="mt-4 text-sm text-slate-400">Public portfolio. Private production code protected.</p>
         </div>
 
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-          <div class="rounded-3xl border border-line bg-panel p-6">
-            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Positioning</span>
-            <p class="mt-3 text-2xl font-bold">13 case studies</p>
-            <p class="mt-2 text-sm text-muted">Portfolio spanning AI automation, SaaS, APIs, hospitality, funding, ESG and strategic delivery.</p>
-          </div>
-          <div class="rounded-3xl border border-line bg-panel p-6">
-            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Operating Lens</span>
-            <p class="mt-3 text-2xl font-bold">From idea to execution</p>
-            <p class="mt-2 text-sm text-muted">Discovery, architecture, roadmap, PMO, communication and public-safe documentation.</p>
-          </div>
-          <div class="rounded-3xl border border-line bg-panel p-6 sm:col-span-2 lg:col-span-1">
-            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-slate-300">Key Links</span>
-            <div class="mt-4 flex flex-wrap gap-3 text-sm">
-              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="./README.md">README</a>
-              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="./PORTFOLIO.md">PORTFOLIO</a>
-              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="./SECURITY.md">SECURITY</a>
-              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="https://github.com/AdrianoPortuga/codestech-product-portfolio" target="_blank" rel="noopener noreferrer">Repository</a>
+          <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-cyan-500/10 backdrop-blur-md">
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Documentation-first</p>
+            <p class="mt-3 text-2xl font-bold text-white">13 public case studies</p>
+            <p class="mt-2 text-sm text-slate-400">Structured for recruiters, partners, investors and clients evaluating product leadership and execution maturity.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-emerald-500/10 backdrop-blur-md">
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Value Lens</p>
+            <p class="mt-3 text-2xl font-bold text-white">Architecture + ROI logic</p>
+            <p class="mt-2 text-sm text-slate-400">Focus on efficiency, scalability, reduced friction, operational clarity and decision-ready product framing.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-violet-500/10 backdrop-blur-md sm:col-span-2 lg:col-span-1">
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-violet-300">Core Links</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <a class="rounded-full border border-slate-700 px-3 py-2 text-sm text-slate-200 transition-colors hover:border-emerald-500/50 hover:text-white" href="./README.md">README</a>
+              <a class="rounded-full border border-slate-700 px-3 py-2 text-sm text-slate-200 transition-colors hover:border-emerald-500/50 hover:text-white" href="./PORTFOLIO.md">PORTFOLIO</a>
+              <a class="rounded-full border border-slate-700 px-3 py-2 text-sm text-slate-200 transition-colors hover:border-emerald-500/50 hover:text-white" href="./SECURITY.md">SECURITY</a>
+              <a class="rounded-full border border-slate-700 px-3 py-2 text-sm text-slate-200 transition-colors hover:border-emerald-500/50 hover:text-white" href="https://github.com/AdrianoPortuga" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
-          </div>
+          </article>
         </div>
       </section>
 
       <section class="mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        <article class="rounded-3xl border border-line bg-panel p-6">
-          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation</p>
-          <h2 class="mt-3 text-2xl font-bold">Operational acceleration</h2>
-          <p class="mt-2 text-sm text-muted">Automation cases designed to reduce response friction, improve routing and support real business workflows.</p>
+        <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-emerald-500/10 backdrop-blur-md">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">AI & Automation</p>
+          <h2 class="mt-3 text-2xl font-bold text-white">Operational acceleration</h2>
+          <p class="mt-3 text-sm text-slate-400">Automation cases designed to improve response consistency, reduce manual follow-up friction and support scalable workflows.</p>
         </article>
-        <article class="rounded-3xl border border-line bg-panel p-6">
-          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Platforms</p>
-          <h2 class="mt-3 text-2xl font-bold">Structured digital products</h2>
-          <p class="mt-2 text-sm text-muted">Platform cases focused on scalability, user journeys, recurring value and product-system thinking.</p>
+        <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-cyan-500/10 backdrop-blur-md">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">SaaS & Platforms</p>
+          <h2 class="mt-3 text-2xl font-bold text-white">Scalable product systems</h2>
+          <p class="mt-3 text-sm text-slate-400">Platform-oriented cases focused on journey design, recurring value, product structure and organizational usability.</p>
         </article>
-        <article class="rounded-3xl border border-line bg-panel p-6">
-          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">APIs & Integrations</p>
-          <h2 class="mt-3 text-2xl font-bold">Reliable infrastructure</h2>
-          <p class="mt-2 text-sm text-muted">API and integration layers intended to improve continuity between websites, CRM, automation and operations.</p>
+        <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-amber-500/10 backdrop-blur-md">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-amber-300">APIs & Integrations</p>
+          <h2 class="mt-3 text-2xl font-bold text-white">Reliable infrastructure</h2>
+          <p class="mt-3 text-sm text-slate-400">Integration cases that reduce friction across sites, CRM, automation and operational handoff layers.</p>
         </article>
-        <article class="rounded-3xl border border-line bg-panel p-6">
-          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Strategy</p>
-          <h2 class="mt-3 text-2xl font-bold">Decision-ready structuring</h2>
-          <p class="mt-2 text-sm text-muted">Strategic cases built around viability, PMO logic, territorial framing, funding and executive presentation.</p>
+        <article class="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-violet-500/10 backdrop-blur-md">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-violet-300">Funding & Strategy</p>
+          <h2 class="mt-3 text-2xl font-bold text-white">Decision-ready structuring</h2>
+          <p class="mt-3 text-sm text-slate-400">Strategic initiatives organized around viability, PMO logic, partner communication and executive presentation.</p>
         </article>
       </section>
 
       <section id="projects" class="mt-16">
-        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Featured Projects</span>
-            <h2 class="mt-4 text-3xl font-black tracking-tight sm:text-4xl">Executive project selection</h2>
-            <p class="mt-3 max-w-3xl text-sm leading-7 text-muted">Use the filters below to navigate the portfolio by category. Every project card links to a public-safe case study in `/projects`.</p>
+            <span class="inline-flex rounded-full border border-slate-700 bg-slate-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-300">Featured Projects</span>
+            <h2 class="mt-4 text-3xl font-black tracking-tight text-white sm:text-4xl">Executive project grid</h2>
+            <p class="mt-3 max-w-3xl text-sm leading-7 text-slate-400">Filter by macro-category to review cases by product profile. Every card links to an existing case study in `/projects`.</p>
           </div>
           <div class="flex flex-wrap gap-2" id="filters">
-            <button class="filter-btn rounded-full border border-sky-400/40 bg-sky-500 px-4 py-2 text-sm font-semibold text-slate-950" data-filter="all">All</button>
-            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="ai">AI & Automation Systems</button>
-            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="saas">SaaS & Web Platforms</button>
-            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="infra">Infrastructure & APIs</button>
-            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="funding">Funding & Geo-Strategy</button>
+            <button class="filter-btn rounded-full border border-emerald-400/30 bg-emerald-400 px-4 py-2 text-sm font-semibold text-slate-950" data-filter="all">All</button>
+            <button class="filter-btn rounded-full border border-slate-700 px-4 py-2 text-sm font-semibold text-slate-200" data-filter="ai">AI & Automation Systems</button>
+            <button class="filter-btn rounded-full border border-slate-700 px-4 py-2 text-sm font-semibold text-slate-200" data-filter="saas">SaaS & Web Platforms</button>
+            <button class="filter-btn rounded-full border border-slate-700 px-4 py-2 text-sm font-semibold text-slate-200" data-filter="infra">Infrastructure & APIs</button>
+            <button class="filter-btn rounded-full border border-slate-700 px-4 py-2 text-sm font-semibold text-slate-200" data-filter="funding">Funding & Geo-Strategy</button>
           </div>
         </div>
 
         <div class="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3" id="project-grid">
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="ai">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-emerald-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="ai">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation Systems</p>
-                <h3 class="mt-2 text-xl font-bold">WhatsBot AI</h3>
+                <span class="inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">AI & Automation Systems</span>
+                <h3 class="mt-3 text-xl font-bold text-white">WhatsBot AI</h3>
               </div>
-              <span class="rounded-full border border-amber-400/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-200">In development</span>
+              <span class="rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-200">In development</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Conversational automation case designed to reduce response friction, improve qualification and create more reliable routing in operational messaging workflows.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Conversational automation case built to improve first-response consistency, qualification quality and operational routing across messaging-driven workflows.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: reduce manual follow-up friction and improve lead response consistency.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
-              <span class="rounded-full border border-line px-3 py-1">WhatsApp APIs</span>
-              <span class="rounded-full border border-line px-3 py-1">OpenAI</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">WhatsApp APIs</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">OpenAI</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/whatsbot-ai.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-emerald-500/50 hover:text-emerald-200" href="./projects/whatsbot-ai.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="ai">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-emerald-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="ai">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation Systems</p>
-                <h3 class="mt-2 text-xl font-bold">NewHotel Availability Agent</h3>
+                <span class="inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">AI & Automation Systems</span>
+                <h3 class="mt-3 text-xl font-bold text-white">NewHotel Availability Agent</h3>
               </div>
-              <span class="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-200">Prototype</span>
+              <span class="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-200">Prototype</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Hospitality AI use case intended to improve availability handling, support triage and reduce operational delays between contact and response.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Hospitality AI use case intended to bring more context, speed and triage quality into availability request workflows.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: shorten discovery-to-action cycles and improve operational visibility.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">AI Workflows</span>
-              <span class="rounded-full border border-line px-3 py-1">Hospitality</span>
-              <span class="rounded-full border border-line px-3 py-1">Integrations</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">AI Workflows</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Hospitality</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Integrations</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/newhotel-availability-agent.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-emerald-500/50 hover:text-emerald-200" href="./projects/newhotel-availability-agent.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="ai">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-emerald-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="ai">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation Systems</p>
-                <h3 class="mt-2 text-xl font-bold">Dora ROI Builder</h3>
+                <span class="inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">AI & Automation Systems</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Dora ROI Builder</h3>
               </div>
-              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+              <span class="rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-200">Concept</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Strategic concept for improving decision quality around compliance, risk, ROI and investment justification in business transformation contexts.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Strategic concept focused on making ROI, compliance and risk discussions more structured and decision-friendly.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve decision clarity and support more structured investment conversations.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">ROI Logic</span>
-              <span class="rounded-full border border-line px-3 py-1">Risk Framing</span>
-              <span class="rounded-full border border-line px-3 py-1">AI-assisted Analysis</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">ROI Logic</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Risk Framing</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">AI-assisted Analysis</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/dora-roi-builder.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-emerald-500/50 hover:text-emerald-200" href="./projects/dora-roi-builder.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="saas">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
-                <h3 class="mt-2 text-xl font-bold">Schoolia Training OS</h3>
+                <span class="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">SaaS & Web Platforms</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Schoolia Training OS</h3>
               </div>
-              <span class="rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">MVP</span>
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">MVP</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Operational digital school concept combining learning journeys, AI tutoring, business logic and platform structure to support scalable training delivery.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Operational digital school concept designed to connect learning journeys, AI tutoring, product logic and scalable training delivery.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: support scalable onboarding and increase operational visibility across learning flows.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">Next.js</span>
-              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
-              <span class="rounded-full border border-line px-3 py-1">PostgreSQL</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Next.js</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">PostgreSQL</span>
             </div>
-            <div class="mt-6 flex flex-wrap gap-3">
-              <a class="inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/schoolia-training-os.md">View Case Study</a>
-              <a class="inline-flex rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-4 py-3 text-sm font-semibold text-emerald-200 hover:border-emerald-300/40" href="./projects/schoolia-training-os.html">Executive HTML</a>
-            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-cyan-500/50 hover:text-cyan-200" href="./projects/schoolia-training-os.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="saas">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
-                <h3 class="mt-2 text-xl font-bold">Codestech Website</h3>
+                <span class="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">SaaS & Web Platforms</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Codestech Website</h3>
               </div>
-              <span class="rounded-full border border-slate-400/30 bg-slate-500/10 px-3 py-1 text-xs font-semibold text-slate-200">To be confirmed</span>
+              <span class="rounded-full border border-slate-500/30 bg-slate-500/10 px-3 py-1 text-xs font-semibold text-slate-200">To be confirmed</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Brand and conversion layer intended to strengthen market positioning, communicate capabilities and support opportunity generation.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Brand and conversion layer intended to communicate positioning, trust and capability across digital products and services.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: reduce brand friction and improve conversion readiness.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">React</span>
-              <span class="rounded-full border border-line px-3 py-1">TypeScript</span>
-              <span class="rounded-full border border-line px-3 py-1">Vite</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">React</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">TypeScript</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Vite</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/codestech-site.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-cyan-500/50 hover:text-cyan-200" href="./projects/codestech-site.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="saas">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
-                <h3 class="mt-2 text-xl font-bold">NewHotel Availability Web</h3>
+                <span class="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">SaaS & Web Platforms</span>
+                <h3 class="mt-3 text-xl font-bold text-white">NewHotel Availability Web</h3>
               </div>
-              <span class="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-200">Prototype</span>
+              <span class="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-200">Prototype</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Web-facing hospitality layer intended to support guided interaction, visibility and operational continuity around availability workflows.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Web interaction layer for hospitality availability processes, built to improve usability and operational continuity.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve visibility and support more structured service handoff.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">Next.js</span>
-              <span class="rounded-full border border-line px-3 py-1">React</span>
-              <span class="rounded-full border border-line px-3 py-1">TypeScript</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Next.js</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">React</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">TypeScript</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/newhotel-availability-web.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-cyan-500/50 hover:text-cyan-200" href="./projects/newhotel-availability-web.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="saas">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
-                <h3 class="mt-2 text-xl font-bold">EcoDigi Lab Portugal</h3>
+                <span class="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">SaaS & Web Platforms</span>
+                <h3 class="mt-3 text-xl font-bold text-white">EcoDigi Lab Portugal</h3>
               </div>
-              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+              <span class="rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-200">Concept</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Modular hub concept combining digital education, sustainability, social impact, funding logic and partnership-ready executive structure.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Modular hub concept connecting digital education, sustainability, social impact and partnership-ready executive structure.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve strategic clarity and partner readiness for ecosystem execution.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">ESG</span>
-              <span class="rounded-full border border-line px-3 py-1">PMO</span>
-              <span class="rounded-full border border-line px-3 py-1">Funding Architecture</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">ESG</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">PMO</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Funding Logic</span>
             </div>
-            <div class="mt-6 flex flex-wrap gap-3">
-              <a class="inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/ecodigi-lab-portugal.md">View Case Study</a>
-              <a class="inline-flex rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-4 py-3 text-sm font-semibold text-emerald-200 hover:border-emerald-300/40" href="./projects/ecodigi-lab-portugal.html">Executive HTML</a>
-            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-cyan-500/50 hover:text-cyan-200" href="./projects/ecodigi-lab-portugal.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="infra">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-amber-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="infra">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Infrastructure & APIs</p>
-                <h3 class="mt-2 text-xl font-bold">Codestech Mini API</h3>
+                <span class="inline-flex rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-300">Infrastructure & APIs</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Codestech Mini API</h3>
               </div>
-              <span class="rounded-full border border-amber-400/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-200">In development</span>
+              <span class="rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-200">In development</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Lightweight API foundation used to support modular service delivery, integration experiments and product infrastructure evolution.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Lightweight API foundation created to support modular backend delivery and integration-first product evolution.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: reduce implementation friction and support more reusable infrastructure.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
-              <span class="rounded-full border border-line px-3 py-1">REST APIs</span>
-              <span class="rounded-full border border-line px-3 py-1">SQLite/PostgreSQL</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">REST APIs</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">SQLite/PostgreSQL</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/codestech-mini-api.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-amber-500/50 hover:text-amber-200" href="./projects/codestech-mini-api.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="infra">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-amber-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="infra">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Infrastructure & APIs</p>
-                <h3 class="mt-2 text-xl font-bold">Codestech Lead API</h3>
+                <span class="inline-flex rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-300">Infrastructure & APIs</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Codestech Lead API</h3>
               </div>
-              <span class="rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">Production</span>
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">Production</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Central lead intake layer designed to improve validation, deduplication and downstream routing into CRM and automation systems.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Central lead intake and routing layer built to standardize validation, reduce duplication and improve CRM-facing continuity.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve lead response consistency and reduce downstream operational noise.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
-              <span class="rounded-full border border-line px-3 py-1">PostgreSQL</span>
-              <span class="rounded-full border border-line px-3 py-1">Webhooks</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">PostgreSQL</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Webhooks</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/lead-api.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-amber-500/50 hover:text-amber-200" href="./projects/lead-api.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="infra">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-amber-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="infra">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Infrastructure & APIs</p>
-                <h3 class="mt-2 text-xl font-bold">Site Integration Project</h3>
+                <span class="inline-flex rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-300">Infrastructure & APIs</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Site Integration Project</h3>
               </div>
-              <span class="rounded-full border border-slate-400/30 bg-slate-500/10 px-3 py-1 text-xs font-semibold text-slate-200">To be confirmed</span>
+              <span class="rounded-full border border-slate-500/30 bg-slate-500/10 px-3 py-1 text-xs font-semibold text-slate-200">To be confirmed</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Website-to-operations integration case focused on reducing manual handoff and improving consistency between forms, APIs, CRM and automation.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Integration case focused on connecting websites, forms and operations with less friction and clearer delivery structure.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve operational handoff and reduce manual processing steps.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">APIs</span>
-              <span class="rounded-full border border-line px-3 py-1">CRM Integrations</span>
-              <span class="rounded-full border border-line px-3 py-1">Make/n8n</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">APIs</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">CRM Integrations</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Make/n8n</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/projeto-integracao-site.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-amber-500/50 hover:text-amber-200" href="./projects/projeto-integracao-site.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="funding">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-violet-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="funding">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Geo-Strategy</p>
-                <h3 class="mt-2 text-xl font-bold">Funding Radar / Portugal 2030</h3>
+                <span class="inline-flex rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-300">Funding & Geo-Strategy</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Funding Radar / Portugal 2030</h3>
               </div>
-              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+              <span class="rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-200">Concept</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Monitoring concept intended to improve opportunity visibility, categorization and prioritization across funding-related notice workflows.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Monitoring concept intended to make funding notices more visible, trackable and actionable across strategic workflows.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve opportunity visibility and support better prioritization.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">Research Workflows</span>
-              <span class="rounded-full border border-line px-3 py-1">Monitoring</span>
-              <span class="rounded-full border border-line px-3 py-1">GovTech Logic</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Research Workflows</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Monitoring</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">GovTech</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/funding-radar-portugal-2030.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-violet-500/50 hover:text-violet-200" href="./projects/funding-radar-portugal-2030.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="funding">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-violet-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="funding">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Geo-Strategy</p>
-                <h3 class="mt-2 text-xl font-bold">Geres Digital Experience Network</h3>
+                <span class="inline-flex rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-300">Funding & Geo-Strategy</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Geres Digital Experience Network</h3>
               </div>
-              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+              <span class="rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-200">Concept</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Territorial platform case connecting visitors, partners and promoters through discovery, coordination and regional experience logic.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Territorial platform strategy case connecting tourism stakeholders, discovery flows and regional coordination models.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve ecosystem coordination and support more structured territorial visibility.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">Platform Strategy</span>
-              <span class="rounded-full border border-line px-3 py-1">Tourism</span>
-              <span class="rounded-full border border-line px-3 py-1">Analytics</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Platform Strategy</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Tourism</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Analytics</span>
             </div>
-            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/geres-digital-experience-network.md">View Case Study</a>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-violet-500/50 hover:text-violet-200" href="./projects/geres-digital-experience-network.md">View Case Study</a>
           </article>
 
-          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="funding">
+          <article class="project-card rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow shadow-violet-500/10 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/20" data-category="funding">
             <div class="flex items-start justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Geo-Strategy</p>
-                <h3 class="mt-2 text-xl font-bold">Funding Portfolio OS / P01</h3>
+                <span class="inline-flex rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-300">Funding & Geo-Strategy</span>
+                <h3 class="mt-3 text-xl font-bold text-white">Funding Portfolio OS / P01</h3>
               </div>
-              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+              <span class="rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs font-semibold text-violet-200">Concept</span>
             </div>
-            <p class="mt-4 text-sm leading-7 text-muted">Strategic structuring case for transforming strong ideas into discussable, fundable and execution-ready initiatives with PMO discipline.</p>
+            <p class="mt-4 text-sm leading-7 text-slate-400">Strategic structuring case built to turn strong ideas into funding-ready, PMO-ready and executive-ready initiatives.</p>
+            <p class="mt-4 text-sm font-medium text-slate-200">Expected business value: improve decision clarity and support faster project mobilization.</p>
             <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
-              <span class="rounded-full border border-line px-3 py-1">PMO</span>
-              <span class="rounded-full border border-line px-3 py-1">WBS</span>
-              <span class="rounded-full border border-line px-3 py-1">Executive Framing</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">PMO</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">WBS</span>
+              <span class="rounded-full border border-slate-700 px-3 py-1">Executive HTML</span>
             </div>
-            <div class="mt-6 flex flex-wrap gap-3">
-              <a class="inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/funding-portfolio-os-p01.md">View Case Study</a>
-              <a class="inline-flex rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-4 py-3 text-sm font-semibold text-emerald-200 hover:border-emerald-300/40" href="./projects/funding-portfolio-os-p01.html">Executive HTML</a>
-            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-slate-700 bg-slate-950/60 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-violet-500/50 hover:text-violet-200" href="./projects/funding-portfolio-os-p01.md">View Case Study</a>
           </article>
         </div>
       </section>
 
-      <section id="method" class="mt-16 rounded-3xl border border-line bg-panel p-8">
-        <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Metodo Codestech</span>
-        <h2 class="mt-4 text-3xl font-black tracking-tight sm:text-4xl">How projects move from idea to executive presentation</h2>
-        <p class="mt-4 max-w-4xl text-sm leading-7 text-muted">The Codestech method structures initiatives in layers so they become clearer, more executable and more presentable. The goal is not just software production. The goal is decision-ready product and project framing.</p>
-        <div class="mt-8 grid gap-5 lg:grid-cols-2">
-          <div class="rounded-3xl border border-line bg-slate-950/40 p-6">
-            <h3 class="text-lg font-bold">Method layers</h3>
-            <ul class="mt-4 space-y-3 text-sm text-muted">
-              <li>Problem framing</li>
-              <li>Market or territorial diagnosis</li>
-              <li>Solution thesis</li>
-              <li>Business or funding model</li>
-              <li>Platform and software logic</li>
-              <li>Roadmap and PMO structure</li>
-              <li>Budget, risks and final executive material</li>
-            </ul>
-          </div>
-          <div class="rounded-3xl border border-line bg-slate-950/40 p-6">
-            <h3 class="text-lg font-bold">Creation journey</h3>
-            <ol class="mt-4 space-y-3 text-sm text-muted">
-              <li>1. Initial idea</li>
-              <li>2. Research and diagnosis</li>
-              <li>3. Solution thesis</li>
-              <li>4. Architecture and operating model</li>
-              <li>5. Financial model and viability</li>
-              <li>6. 0-30 / 30-60 / 60-90 roadmap</li>
-              <li>7. PMO and WBS</li>
-              <li>8. Executive final version</li>
-              <li>9. Public portfolio publication</li>
-            </ol>
-          </div>
-        </div>
-      </section>
-
-      <section id="trust" class="mt-16 grid gap-5 lg:grid-cols-[.9fr_1.1fr]">
-        <div class="rounded-3xl border border-line bg-panel p-8">
-          <span class="inline-flex rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Security / Trust</span>
-          <h2 class="mt-4 text-3xl font-black tracking-tight">Public-safe by design</h2>
-          <p class="mt-4 text-sm leading-7 text-muted">This portfolio is built to communicate value while protecting implementation assets. It is useful because it is selective, not because it is exhaustive.</p>
-        </div>
-        <div class="grid gap-4 sm:grid-cols-2">
-          <article class="rounded-3xl border border-line bg-panel p-6">
-            <h3 class="text-lg font-bold">No private source code</h3>
-            <p class="mt-2 text-sm text-muted">Production repositories and implementation logic remain private.</p>
+      <section id="trust" class="mt-16 rounded-3xl border border-slate-800 bg-slate-900/80 p-8 shadow shadow-emerald-500/10 backdrop-blur-md">
+        <span class="inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Security / Trust</span>
+        <div class="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <article class="rounded-2xl border border-slate-800 bg-slate-950/40 p-5">
+            <h3 class="text-base font-bold text-white">No private source code</h3>
+            <p class="mt-2 text-sm text-slate-400">The repository remains documentation-first and does not expose proprietary implementation.</p>
           </article>
-          <article class="rounded-3xl border border-line bg-panel p-6">
-            <h3 class="text-lg font-bold">No client data</h3>
-            <p class="mt-2 text-sm text-muted">No real customer records, identifiers or protected datasets are published.</p>
+          <article class="rounded-2xl border border-slate-800 bg-slate-950/40 p-5">
+            <h3 class="text-base font-bold text-white">No client data</h3>
+            <p class="mt-2 text-sm text-slate-400">Protected customer information is excluded from public content and media.</p>
           </article>
-          <article class="rounded-3xl border border-line bg-panel p-6">
-            <h3 class="text-lg font-bold">No credentials</h3>
-            <p class="mt-2 text-sm text-muted">Secrets, tokens, endpoints and internal URLs are excluded by policy.</p>
+          <article class="rounded-2xl border border-slate-800 bg-slate-950/40 p-5">
+            <h3 class="text-base font-bold text-white">No credentials</h3>
+            <p class="mt-2 text-sm text-slate-400">Secrets, tokens, private endpoints and internal URLs are never published here.</p>
           </article>
-          <article class="rounded-3xl border border-line bg-panel p-6">
-            <h3 class="text-lg font-bold">High-level architecture only</h3>
-            <p class="mt-2 text-sm text-muted">Architecture is shown conceptually, not operationally.</p>
+          <article class="rounded-2xl border border-slate-800 bg-slate-950/40 p-5">
+            <h3 class="text-base font-bold text-white">High-level architecture only</h3>
+            <p class="mt-2 text-sm text-slate-400">Architecture is shown conceptually to communicate product logic, not operational detail.</p>
           </article>
         </div>
       </section>
 
-      <section id="contact" class="mt-16 rounded-3xl border border-line bg-panel p-8">
-        <div class="grid gap-8 lg:grid-cols-[1fr_.8fr]">
+      <section id="contact" class="mt-16 rounded-3xl border border-slate-800 bg-slate-900/80 p-8 shadow shadow-cyan-500/10 backdrop-blur-md">
+        <div class="grid gap-6 lg:grid-cols-[1fr_.8fr]">
           <div>
-            <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Final CTA</span>
-            <h2 class="mt-4 text-3xl font-black tracking-tight sm:text-4xl">Open the portfolio, review the cases, continue the conversation</h2>
-            <p class="mt-4 max-w-3xl text-sm leading-7 text-muted">This portfolio is intended to help recruiters, partners and clients understand how product, AI automation, APIs and strategic structuring are approached across Codestech initiatives.</p>
+            <span class="inline-flex rounded-full border border-slate-700 bg-slate-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-300">Final CTA</span>
+            <h2 class="mt-4 text-3xl font-black tracking-tight text-white sm:text-4xl">Review the portfolio, explore the case studies, continue the conversation</h2>
+            <p class="mt-4 max-w-3xl text-sm leading-7 text-slate-400">This portfolio is built to show product leadership, architecture direction, business value and structured execution across technology and strategic initiatives.</p>
           </div>
           <div class="flex flex-col gap-3">
-            <a class="rounded-2xl border border-sky-400/40 bg-sky-500 px-5 py-4 text-center text-sm font-semibold text-slate-950 transition hover:bg-sky-400" href="https://www.linkedin.com/in/adriano-correa-39174956/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a class="rounded-2xl border border-line bg-slate-900/60 px-5 py-4 text-center text-sm font-semibold text-white transition hover:border-sky-400/40" href="https://github.com/AdrianoPortuga" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a class="rounded-2xl border border-line bg-slate-900/60 px-5 py-4 text-center text-sm font-semibold text-white transition hover:border-sky-400/40" href="https://github.com/AdrianoPortuga/codestech-product-portfolio" target="_blank" rel="noopener noreferrer">Portfolio Repository</a>
+            <a class="rounded-2xl border border-emerald-400/30 bg-emerald-400 px-5 py-4 text-center text-sm font-semibold text-slate-950 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/20" href="https://adrianoportuga.github.io/codestech-product-portfolio/">Portfolio Repository Web</a>
+            <a class="rounded-2xl border border-slate-700 bg-slate-950/60 px-5 py-4 text-center text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:border-cyan-500/50 hover:shadow-lg hover:shadow-cyan-500/20" href="https://www.linkedin.com/in/adriano-correa-39174956/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="rounded-2xl border border-slate-700 bg-slate-950/60 px-5 py-4 text-center text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:border-violet-500/50 hover:shadow-lg hover:shadow-violet-500/20" href="https://github.com/AdrianoPortuga" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="border-t border-line/80 py-8">
+    <footer class="border-t border-slate-800 py-8">
       <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
-        <span>Documentation-first public portfolio. Private production code protected.</span>
-        <a href="./SECURITY.md" class="hover:text-sky-200">Read security policy</a>
+        <span>Public portfolio. Private production code protected.</span>
+        <a class="transition-colors hover:text-emerald-300" href="./SECURITY.md">Read security policy</a>
       </div>
     </footer>
   </div>
 
   <script>
-    const buttons = document.querySelectorAll(".filter-btn");
-    const cards = document.querySelectorAll(".project-card");
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const projectCards = document.querySelectorAll(".project-card");
 
-    buttons.forEach((button) => {
+    filterButtons.forEach((button) => {
       button.addEventListener("click", () => {
         const filter = button.dataset.filter;
 
-        buttons.forEach((item) => {
-          item.classList.remove("bg-sky-500", "text-slate-950", "border-sky-400/40");
-          item.classList.add("border-line", "text-slate-200");
+        filterButtons.forEach((item) => {
+          item.classList.remove("bg-emerald-400", "text-slate-950", "border-emerald-400/30");
+          item.classList.add("border-slate-700", "text-slate-200");
         });
 
-        button.classList.add("bg-sky-500", "text-slate-950", "border-sky-400/40");
-        button.classList.remove("border-line", "text-slate-200");
+        button.classList.add("bg-emerald-400", "text-slate-950", "border-emerald-400/30");
+        button.classList.remove("border-slate-700", "text-slate-200");
 
-        cards.forEach((card) => {
+        projectCards.forEach((card) => {
           const category = card.dataset.category;
           const visible = filter === "all" || category === filter;
           card.classList.toggle("hidden", !visible);
