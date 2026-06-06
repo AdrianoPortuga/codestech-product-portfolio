@@ -1,49 +1,74 @@
 # Portfolio Overview
 
-## Purpose
+## Executive Summary
 
-This repository is a public-facing portfolio layer for Codestech product work. It is intended to communicate product thinking, delivery range, architecture maturity and business relevance without exposing internal production assets.
+This repository is the public-facing showcase for Adriano Correa's work across product ownership, AI automation, SaaS structuring, implementation consulting and strategic project development through Codestech.
+
+It is documentation-first by design. Its role is to make product reasoning, executive value, architecture direction and delivery maturity visible without exposing private production code, secrets, internal endpoints or client-sensitive data.
+
+## Portfolio Strategy
+
+The portfolio is organized to help different audiences evaluate different strengths:
+
+- recruiters: delivery maturity, product reasoning and role fit
+- clients: integration capability, operational value and implementation clarity
+- partners and investors: strategic framing, scalability logic and execution discipline
+
+The repository intentionally favors:
+
+- business value over code exposure
+- architecture abstraction over implementation leakage
+- clarity of decision-making over technical noise
 
 ## Portfolio by Category
 
 | Category | Projects |
 |---|---|
-| EdTech | Schoolia Training OS |
-| AI Automation | WhatsBot AI, NewHotel Availability Agent, Dora ROI Builder |
-| APIs and Integrations | Codestech Mini API, Codestech Lead API, Site Integration Project |
-| Hospitality Tech | NewHotel Availability Agent, NewHotel Availability Web, Geres Digital Experience Network |
-| Web and Brand Presence | Codestech Website |
-| Funding / GovTech / Compliance | Funding Radar / Portugal 2030, Dora ROI Builder, EcoDigi Lab Portugal |
-| Platform Strategy | Geres Digital Experience Network |
-| Social Innovation / ESG | EcoDigi Lab Portugal |
+| AI & Automation Systems | WhatsBot AI, NewHotel Availability Agent, Dora ROI Builder |
+| SaaS & Web Platforms | Schoolia Training OS, Codestech Website, NewHotel Availability Web, EcoDigi Lab Portugal |
+| Infrastructure & APIs | Codestech Mini API, Codestech Lead API, Site Integration Project |
+| Funding & Geo-Strategy | Funding Radar / Portugal 2030, Geres Digital Experience Network, Funding Portfolio OS / P01 |
 
-## Maturity Matrix
+## Project Maturity Matrix
 
-| Project | Maturity | Delivery Lens |
-|---|---|---|
-| Schoolia Training OS | MVP | Recruiter and client-ready |
-| WhatsBot AI | In development | Recruiter and client-ready |
-| Codestech Mini API | In development | Technical portfolio support |
-| Codestech Lead API | Production | Strong client-facing case |
-| Codestech Website | To be confirmed | Brand-facing support case |
-| Site Integration Project | To be confirmed | Implementation case |
-| NewHotel Availability Agent | Prototype | Hospitality innovation case |
-| NewHotel Availability Web | Prototype | Hospitality product case |
-| Dora ROI Builder | Concept | Strategic concept case |
-| Funding Radar / Portugal 2030 | Concept | GovTech / automation concept case |
-| Geres Digital Experience Network | Concept | Platform strategy case |
-| EcoDigi Lab Portugal | Concept | Social innovation and funding case |
+| Project | Maturity | Delivery Lens | Notes |
+|---|---|---|---|
+| Schoolia Training OS | MVP | Recruiter-ready and platform-oriented | Strong EdTech + SaaS case |
+| WhatsBot AI | In development | Recruiter and client-ready | Automation and conversational operations |
+| Codestech Mini API | In development | Technical foundation case | Internal infrastructure logic |
+| Codestech Lead API | Production | Strong client-facing case | Lead intake and routing maturity |
+| Codestech Website | To be confirmed | Brand-facing support case | Positioning and conversion layer |
+| Site Integration Project | To be confirmed | Implementation case | Website-to-operations connectivity |
+| NewHotel Availability Agent | Prototype | Hospitality innovation case | AI-assisted workflow design |
+| NewHotel Availability Web | Prototype | Hospitality web product case | Interface and operations layer |
+| Dora ROI Builder | Concept | Strategic concept case | ROI, risk and executive framing |
+| Funding Radar / Portugal 2030 | Concept | Monitoring and GovTech concept case | Opportunity-tracking logic |
+| Geres Digital Experience Network | Concept | Territorial platform strategy case | Tourism and ecosystem coordination |
+| EcoDigi Lab Portugal | Concept | Social innovation and funding case | ESG, partnerships and education |
+| Funding Portfolio OS / P01 | Concept | PMO and strategic-structuring case | Funding-ready project architecture |
 
-## Recommended Highlights for Recruiters
+## Recruiter View
+
+Recommended entry points for recruiters:
 
 - Schoolia Training OS
 - WhatsBot AI
 - Codestech Lead API
 - NewHotel Availability Agent
-- Dora ROI Builder
+- Funding Portfolio OS / P01
 - EcoDigi Lab Portugal
 
-## Recommended Highlights for Clients
+What these projects demonstrate:
+
+- product ownership under ambiguity
+- ability to structure execution
+- fluency across business and technology
+- communication quality for stakeholders
+- use of AI as an operational enabler
+
+## Client View
+
+Recommended entry points for clients:
 
 - Codestech Lead API
 - WhatsBot AI
@@ -51,61 +76,42 @@ This repository is a public-facing portfolio layer for Codestech product work. I
 - NewHotel Availability Agent
 - Codestech Website
 
-## Recommended Highlights for LinkedIn
+What these projects demonstrate:
 
-- Schoolia Training OS
-- WhatsBot AI
-- NewHotel Availability Agent
-- Dora ROI Builder
-- Funding Radar / Portugal 2030
+- lead and CRM integration thinking
+- reduction of operational friction
+- clearer handoff between channels and systems
+- pragmatic delivery planning
+
+## Investor / Partner View
+
+Recommended entry points for partners and ecosystem stakeholders:
+
 - EcoDigi Lab Portugal
-
-## AI-Related Projects
-
-- Schoolia Training OS
-- WhatsBot AI
-- NewHotel Availability Agent
-- Dora ROI Builder
-
-## SaaS-Related Projects
-
-- Schoolia Training OS
-- Codestech Mini API
-- Codestech Lead API
-- NewHotel Availability Web
-
-## Hospitality-Related Projects
-
-- NewHotel Availability Agent
-- NewHotel Availability Web
+- Funding Portfolio OS / P01
 - Geres Digital Experience Network
-
-## Education-Related Projects
-
-- Schoolia Training OS
-- WhatsBot AI
-
-## Compliance / Funding-Related Projects
-
 - Dora ROI Builder
-- Funding Radar / Portugal 2030
-- EcoDigi Lab Portugal
+- Schoolia Training OS
 
-## Portfolio Positioning
+What these projects demonstrate:
 
-The portfolio demonstrates a blend of:
+- strategic framing
+- PMO and WBS logic
+- funding and viability awareness
+- portfolio thinking beyond code delivery
 
-- Product ownership and prioritization
-- Business process design
-- API and automation architecture
-- AI-assisted workflow design
-- SaaS and service implementation thinking
+## LinkedIn Publishing Order
 
-## Use Guidance
+Recommended publishing order:
 
-- Recruiters should start with the featured project set in the main `README.md`.
-- Prospective clients should prioritize projects linked to integrations, lead handling, AI automation and hospitality workflows.
-- Public presentations and social content should use sanitized screenshots and high-level diagrams only.
+1. Why this portfolio exists and why private code remains protected
+2. Schoolia Training OS
+3. WhatsBot AI
+4. Codestech Lead API / Codestech Mini API
+5. NewHotel Availability Agent
+6. Dora ROI Builder
+7. EcoDigi Lab Portugal
+8. Funding Portfolio OS / P01
 
 ## Navigable Portfolio Entries
 
@@ -124,3 +130,11 @@ The portfolio demonstrates a blend of:
 | Geres Digital Experience Network | Territorial platform concept for tourism, partner and promoter coordination. | Product Owner, Functional Architect | Platform strategy, territorial systems thinking, analytics framing | [Case](./projects/geres-digital-experience-network.md) | `to be confirmed` |
 | EcoDigi Lab Portugal | Social innovation and ESG-oriented modular hub concept. | Product Owner, Founder / Product Builder, Documentation lead | ESG framing, institutional structuring, governance and funding logic | [Case](./projects/ecodigi-lab-portugal.md) | [Executive HTML](./projects/ecodigi-lab-portugal.html) |
 | Funding Portfolio OS / P01 | Strategic structuring case for funding-ready and execution-ready projects. | Product Owner, Functional Architect, PMO-oriented structuring lead | PMO, WBS, executive communication, viability framing, delivery planning | [Case](./projects/funding-portfolio-os-p01.md) | [Executive HTML](./projects/funding-portfolio-os-p01.html) |
+
+## Next Improvements
+
+- Add sanitized screenshots for the strongest 4 to 6 cases
+- Create a real OG image in 1200x630
+- Expand executive HTML coverage to more projects
+- Replace remaining `to be confirmed` items only after validation
+- Add a lightweight media system for diagrams and approved mockups

@@ -1,43 +1,87 @@
-# Codestech Product Portfolio
+# Adriano Correa | Codestech Product & AI Portfolio
 
-Public portfolio repository for selected Codestech product cases, designed for LinkedIn, recruiters, partners and potential clients.
+`Product Owner` `AI Automation` `SaaS Builder` `Implementation Consultant` `Founder` `Documentation-First Portfolio` `Private Code Protected`
+
+## Quick Links
+
+- 🚀 [Abrir Portfolio Web](https://adrianoportuga.github.io/codestech-product-portfolio/)
+- 👔 [LinkedIn](https://www.linkedin.com/in/adriano-correa-39174956/)
+- 🧩 [GitHub](https://github.com/AdrianoPortuga)
+- 🔒 [Politica de Seguranca](./SECURITY.md)
 
 ## About
 
-Codestech is a digital product lab focused on AI automation, SaaS platforms, APIs, business workflows, operational tooling and implementation-ready solutions. This repository showcases product thinking, architecture direction and business outcomes without exposing private production code or sensitive internal assets.
+This repository is an executive, documentation-first portfolio designed for recruiters, investors, partners and clients evaluating Adriano Correa's work across product leadership, AI automation, SaaS design, implementation consulting and strategic delivery.
+
+It does not publish Codestech production code. Instead, it presents public-safe case studies, high-level architecture, business value, delivery logic and executive framing for real product initiatives whose implementation repositories remain private.
 
 ## Professional Positioning
 
 **Adriano Correa**  
 Product Owner | AI Automation Builder | SaaS Builder | Implementation Consultant | Founder Codestech
 
-This portfolio highlights cross-functional work spanning product discovery, backlog ownership, solution architecture, implementation design, automation workflows and business-oriented delivery.
+This portfolio highlights the ability to move from idea framing to structured execution, combining:
 
-## Portfólio navegável
+- product thinking and prioritization
+- AI-assisted operational design
+- SaaS and platform logic
+- APIs and integration strategy
+- PMO-minded delivery structure
+- executive communication for stakeholders, partners and decision-makers
 
-- [Página principal do portfólio](./index.html)
-- [EcoDigi Lab Portugal — case](./projects/ecodigi-lab-portugal.md)
-- [EcoDigi Lab Portugal — HTML executivo](./projects/ecodigi-lab-portugal.html)
-- [Funding Portfolio OS / P01 — case](./projects/funding-portfolio-os-p01.md)
-- [Funding Portfolio OS / P01 — HTML executivo](./projects/funding-portfolio-os-p01.html)
+## Portfolio Navigable
 
-## Featured Projects
+- [Main portfolio page](./index.html)
+- [EcoDigi Lab Portugal - case study](./projects/ecodigi-lab-portugal.md)
+- [EcoDigi Lab Portugal - executive HTML](./projects/ecodigi-lab-portugal.html)
+- [Funding Portfolio OS / P01 - case study](./projects/funding-portfolio-os-p01.md)
+- [Funding Portfolio OS / P01 - executive HTML](./projects/funding-portfolio-os-p01.html)
+- [Schoolia Training OS - executive HTML](./projects/schoolia-training-os.html)
 
-| Project | Category | Problem | Solution | Stack | Status | Case Study Link |
-|---|---|---|---|---|---|---|
-| Schoolia Training OS | EdTech / SaaS / AI | Teams need structured AI training with guided learning and operational control. | Training platform with learning journeys, tutor support and admin workflows. | React, Next.js, FastAPI, PostgreSQL, AI workflows, to be confirmed | MVP | [Case study](./projects/schoolia-training-os.md) |
-| WhatsBot AI | AI Automation / WhatsApp | Businesses need faster response, qualification and lead follow-up. | Conversational automation engine for intake, qualification and guided flows. | Python, FastAPI, WhatsApp APIs, PostgreSQL, OpenAI, to be confirmed | In development | [Case study](./projects/whatsbot-ai.md) |
-| Codestech Mini API | API Platform / Product Infrastructure | Early-stage products need a lightweight service layer for integrations and feature delivery. | Internal API foundation for modular product services and experiments. | Python, FastAPI, REST APIs, SQLite/PostgreSQL, to be confirmed | In development | [Case study](./projects/codestech-mini-api.md) |
-| Codestech Lead API | LeadOps / Integrations | Sites and campaigns need a stable lead entry layer before CRM routing. | Central lead intake API with validation, dedupe and downstream dispatch. | Python, FastAPI, PostgreSQL, webhooks, automation tools | Production | [Case study](./projects/lead-api.md) |
-| Codestech Website | Web Presence / Growth | A services company needs a clear digital presence to convert traffic into opportunities. | Brand and conversion website aligned with product and service positioning. | React, TypeScript, Vite, HTML, CSS, to be confirmed | To be confirmed | [Case study](./projects/codestech-site.md) |
-| Site Integration Project | Integrations / WebOps | Websites often require reliable lead, form and CRM connectivity. | Integration layer connecting website events to automations and backend services. | APIs, webhooks, CRM integrations, Make/n8n, to be confirmed | To be confirmed | [Case study](./projects/projeto-integracao-site.md) |
-| NewHotel Availability Agent | Hospitality Tech / AI | Hotel teams need faster handling of availability requests and operational context. | AI-assisted availability agent for intake, triage and booking-adjacent workflows. | Python, AI workflows, hospitality integrations, to be confirmed | Prototype | [Case study](./projects/newhotel-availability-agent.md) |
-| NewHotel Availability Web | Hospitality Tech / Web App | Front-desk and commercial flows need a web layer for visibility and execution. | Web experience supporting availability workflows and user interaction. | Next.js, React, TypeScript, to be confirmed | Prototype | [Case study](./projects/newhotel-availability-web.md) |
-| Dora ROI Builder | Compliance / ROI / SaaS | Teams need clearer justification for compliance, risk and investment decisions. | Product concept for structured ROI, risk and decision support. | Product design, workflow logic, AI-assisted analysis, to be confirmed | Concept | [Case study](./projects/dora-roi-builder.md) |
-| Funding Radar / Portugal 2030 | Funding / GovTech / RegTech | Organizations need help monitoring funding opportunities and public notices. | Radar-style monitoring concept for notices, categorization and prioritization. | Research workflows, automation, data parsing, to be confirmed | Concept | [Case study](./projects/funding-radar-portugal-2030.md) |
-| Geres Digital Experience Network | Tourism / Platform Strategy | Regional ecosystems need coordinated digital discovery and partner participation. | Territorial experience platform connecting visitors, partners and promoters. | Web platform, APIs, dashboards, analytics, integrations, to be confirmed | Concept | [Case study](./projects/geres-digital-experience-network.md) |
-| EcoDigi Lab Portugal | Social Innovation / ESG / Education | Communities need a modular innovation model combining digital education, sustainability and social impact. | Hub model combining education, partnership logic, funding, ESG and community activation. | Program design, platform logic, PMO, funding architecture, to be confirmed | Concept | [Case study](./projects/ecodigi-lab-portugal.md) |
-| Funding Portfolio OS / P01 | Strategic Structuring / Funding / PMO | Strong ideas often lack enough structure to become discussable, executable and fundable. | Strategic portfolio model combining thesis, funding, roadmap, PMO and executive presentation. | Executive HTML, PMO logic, AI-assisted structuring, to be confirmed | Concept | [Case study](./projects/funding-portfolio-os-p01.md) |
+## Portfolio Structure
+
+This public repository is built to demonstrate:
+
+- executive value and business rationale
+- product scope and operating logic
+- high-level architecture and integration thinking
+- roadmap, maturity and implementation structure
+- public-safe communication without exposing proprietary assets
+
+Unknown or unverified details remain explicitly marked as `to be confirmed`.
+
+## AI & Automation Systems
+
+| Project | Executive Value | Category | Status | Case Study |
+|---|---|---|---|---|
+| WhatsBot AI | Reduces response friction, supports qualification logic and improves operational consistency in conversational channels. | AI & Automation Systems | In development | [Case](./projects/whatsbot-ai.md) |
+| NewHotel Availability Agent | Brings AI-assisted triage into hospitality workflows to improve speed, clarity and handoff quality. | AI & Automation Systems | Prototype | [Case](./projects/newhotel-availability-agent.md) |
+| Dora ROI Builder | Frames compliance, risk and investment decisions in a more structured and executive-readable way. | AI & Automation Systems | Concept | [Case](./projects/dora-roi-builder.md) |
+
+## SaaS & Web Platforms
+
+| Project | Executive Value | Category | Status | Case Study |
+|---|---|---|---|---|
+| Schoolia Training OS | Structures AI-enabled training delivery as an operational digital school with product, learning and revenue logic. | SaaS & Web Platforms | MVP | [Case](./projects/schoolia-training-os.md) |
+| Codestech Website | Supports positioning, market credibility and conversion paths for services, products and partnerships. | SaaS & Web Platforms | To be confirmed | [Case](./projects/codestech-site.md) |
+| NewHotel Availability Web | Creates a presentable web layer for hospitality workflows that can scale beyond messaging-only interaction. | SaaS & Web Platforms | Prototype | [Case](./projects/newhotel-availability-web.md) |
+| EcoDigi Lab Portugal | Organizes digital education, sustainability and social-impact strategy into a fundable, partner-ready hub model. | SaaS & Web Platforms | Concept | [Case](./projects/ecodigi-lab-portugal.md) |
+
+## Infrastructure & APIs
+
+| Project | Executive Value | Category | Status | Case Study |
+|---|---|---|---|---|
+| Codestech Mini API | Provides a lightweight backend foundation for modular delivery, experimentation and integration-first product work. | Infrastructure & APIs | In development | [Case](./projects/codestech-mini-api.md) |
+| Codestech Lead API | Centralizes lead intake, reduces duplication risk and improves downstream routing into CRM and automation layers. | Infrastructure & APIs | Production | [Case](./projects/lead-api.md) |
+| Site Integration Project | Connects websites, forms and operational systems with less manual friction and cleaner implementation logic. | Infrastructure & APIs | To be confirmed | [Case](./projects/projeto-integracao-site.md) |
+
+## Funding & Geo-Strategy
+
+| Project | Executive Value | Category | Status | Case Study |
+|---|---|---|---|---|
+| Funding Radar / Portugal 2030 | Improves visibility over notices and opportunity tracking in funding-oriented workflows. | Funding & Geo-Strategy | Concept | [Case](./projects/funding-radar-portugal-2030.md) |
+| Geres Digital Experience Network | Connects tourism stakeholders, territorial offers and regional coordination through a platform lens. | Funding & Geo-Strategy | Concept | [Case](./projects/geres-digital-experience-network.md) |
+| Funding Portfolio OS / P01 | Translates strategic ideas into structured, discussable and fundable project cases with PMO, WBS and delivery logic. | Funding & Geo-Strategy | Concept | [Case](./projects/funding-portfolio-os-p01.md) |
 
 ## Areas of Expertise
 
@@ -51,8 +95,9 @@ This portfolio highlights cross-functional work spanning product discovery, back
 - Hospitality Tech
 - RegTech and Compliance
 - Funding and GovTech
+- PMO-oriented delivery structuring
 
-## Tech Stack
+## Technology and Delivery Lens
 
 **Frontend**  
 React, TypeScript, JavaScript, Vite, HTML, CSS
@@ -61,7 +106,7 @@ React, TypeScript, JavaScript, Vite, HTML, CSS
 Python, FastAPI, Node.js, REST APIs
 
 **Databases**  
-PostgreSQL, SQLite, Google Sheets, to be confirmed
+PostgreSQL, SQLite, Google Sheets, `to be confirmed`
 
 **Automation**  
 Make, n8n, Monday, WhatsApp APIs, CRM integrations
@@ -70,19 +115,29 @@ Make, n8n, Monday, WhatsApp APIs, CRM integrations
 OpenAI, prompt engineering, AI agents, automation workflows
 
 **Deploy**  
-Vercel, Render, Cloudflare, to be confirmed
+GitHub Pages, Vercel, Render, Cloudflare, `to be confirmed`
 
 **Product**  
 Scrum, backlog, roadmap, discovery, MVP, stakeholder management
 
+## Security Note
+
+This portfolio is intentionally public-safe:
+
+- no private source code
+- no client data
+- no credentials or secrets
+- no internal endpoints
+- high-level architecture only
+
 ## Contact
 
-- LinkedIn: `to be added`
-- GitHub: `to be added`
-- Professional email: `to be added`
+- LinkedIn: [adriano-correa-39174956](https://www.linkedin.com/in/adriano-correa-39174956/)
+- GitHub: [AdrianoPortuga](https://github.com/AdrianoPortuga)
+- Professional email: `to be confirmed`
 
 ## Repository Notes
 
-- This repository is intentionally documentation-first.
-- No private source code, secrets, credentials or client-sensitive production data are included.
-- Unknown or unverified details are marked as `to be confirmed`.
+- This repository is documentation-first by design.
+- Real production repositories remain private.
+- The goal is to demonstrate value creation, execution maturity and strategic product thinking without exposing proprietary implementation assets.
