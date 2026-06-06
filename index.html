@@ -1,468 +1,478 @@
 <!doctype html>
-<html lang="pt-PT">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Codestech Product Portfolio - V2</title>
-<meta name="description" content="Portfolio publico da Codestech com casos de produto, automacao, SaaS, IA, APIs e o Metodo Codestech para estruturar projetos estrategicos.">
-<style>
-:root{
-  --bg:#0b0e14;
-  --fg:#e8f0ff;
-  --muted:#a9b4c2;
-  --card:#0f1320;
-  --line:#1d2440;
-  --pill:#0b1730;
-  --accent:#7bdcff;
-  --accent-2:#c6ff7b;
-  --soft:#101a30;
-  --warn:#ffd479;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:
-radial-gradient(circle at top right, rgba(123,220,255,.14), transparent 24%),
-radial-gradient(circle at top left, rgba(198,255,123,.08), transparent 20%),
-var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
-a{color:inherit;text-decoration:none}
-.container{max-width:1180px;margin:auto;padding:24px}
-.header{position:sticky;top:0;z-index:30;background:rgba(11,14,20,.88);backdrop-filter:blur(10px);border-bottom:1px solid #121a36}
-.header-inner{display:flex;align-items:center;gap:20px;padding:16px 24px}
-.logo{display:flex;align-items:center;gap:12px}
-.logo-mark{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#0d132b;border:1px solid #233066}
-.logo-diamond{width:12px;height:12px;transform:rotate(45deg);border:2px solid #cbd6ff}
-.nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}
-.nav a{color:#cbd6ff;font-size:14px}
-.nav a:hover,.nav a.active{color:#fff}
-.hero{padding:54px 24px 24px}
-.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
-.badge{display:inline-block;background:var(--pill);border:1px solid #203066;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700;letter-spacing:.04em}
-.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.04;margin:12px 0}
-.hero p{color:var(--muted);max-width:760px}
-.section{margin:28px 0}
-.section-title{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 18px 50px rgba(0,0,0,.2)}
-.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
-.btn{display:inline-block;padding:12px 18px;border-radius:12px;border:1px solid #2c7dff;background:#102246;color:#fff;font-weight:700}
-.btn.secondary{background:transparent;border-color:#2d375d;color:#d7e4ff}
-.hero-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.kpi{padding:16px;border-radius:16px;background:#0c1222;border:1px solid #1c2748}
-.kpi strong{display:block;font-size:26px}
-.grid{display:grid;gap:16px}
-.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
-.list-clean{padding-left:18px;margin:10px 0 0}
-.muted{color:var(--muted)}
-.project-table{width:100%;border-collapse:collapse;font-size:14px}
-.project-table th,.project-table td{padding:12px 10px;border-bottom:1px solid #1c2540;vertical-align:top;text-align:left}
-.project-table th{color:#d9e5ff;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
-.project-actions{display:flex;gap:8px;flex-wrap:wrap}
-.project-actions .btn{padding:8px 12px;font-size:13px}
-.pill-row{display:flex;gap:8px;flex-wrap:wrap}
-.mini-pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#0b1730;border:1px solid #203066;font-size:12px;color:#d7e4ff}
-.timeline{position:relative;padding-left:24px}
-.timeline:before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:#203066}
-.timeline-step{position:relative;padding:0 0 18px 18px}
-.timeline-step:last-child{padding-bottom:0}
-.timeline-step:before{content:"";position:absolute;left:-3px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(123,220,255,.12)}
-.compare-table{width:100%;border-collapse:collapse}
-.compare-table th,.compare-table td{padding:14px;border:1px solid #1b2542;vertical-align:top;text-align:left}
-.compare-table th{background:#0d1730}
-.highlight{border:1px solid #294a77;background:linear-gradient(180deg, rgba(19,33,59,.95), rgba(14,19,32,.95))}
-.note{border-left:4px solid var(--accent-2);padding-left:14px}
-footer{color:#91a0c7;border-top:1px solid #121a36;padding:28px;text-align:center;margin-top:36px}
-@media (max-width:980px){
-  .hero-grid,.grid-4,.grid-3,.grid-2{grid-template-columns:1fr}
-  .nav{margin-left:0}
-  .header-inner{flex-direction:column;align-items:flex-start}
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adriano Correa | Codestech Product & AI Portfolio</title>
+  <meta name="description" content="Executive, documentation-first portfolio for product ownership, AI automation, SaaS platforms, APIs, integrations and strategic delivery by Adriano Correa.">
+  <meta property="og:title" content="Adriano Correa | Codestech Product & AI Portfolio">
+  <meta property="og:description" content="Public portfolio for recruiters, partners and clients. High-level product architecture, business value and execution strategy without exposing private production code.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://adrianoportuga.github.io/codestech-product-portfolio/">
+  <!-- og:image: to be confirmed. Add a real 1200x630 asset before enabling this tag. -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Adriano Correa | Codestech Product & AI Portfolio">
+  <meta name="twitter:description" content="Documentation-first executive portfolio for AI automation, SaaS, APIs and strategic delivery.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            deep: "#07111f",
+            panel: "#0d1728",
+            line: "#1e2e4a",
+            accent: "#38bdf8",
+            accent2: "#22c55e",
+            muted: "#9fb0c8"
+          },
+          boxShadow: {
+            glow: "0 20px 50px rgba(56, 189, 248, 0.12)"
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body>
-  <div id="topo"></div>
-
-  <header class="header">
-    <div class="header-inner container">
-      <div class="logo">
-        <div class="logo-mark"><div class="logo-diamond"></div></div>
-        <strong>Codestech Product Portfolio</strong>
+<body class="bg-deep text-slate-100 selection:bg-sky-400/30">
+  <div class="min-h-screen bg-[radial-gradient(circle_at_top_right,_rgba(56,189,248,0.12),_transparent_25%),radial-gradient(circle_at_top_left,_rgba(34,197,94,0.10),_transparent_20%)]">
+    <header class="sticky top-0 z-50 border-b border-line/80 bg-deep/90 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
+        <a href="#top" class="flex items-center gap-3">
+          <span class="grid h-10 w-10 place-items-center rounded-full border border-sky-400/30 bg-sky-500/10">
+            <span class="h-3 w-3 rotate-45 border-2 border-slate-100"></span>
+          </span>
+          <span>
+            <span class="block text-sm uppercase tracking-[0.18em] text-sky-300">Codestech</span>
+            <strong class="text-sm sm:text-base">Product & AI Portfolio</strong>
+          </span>
+        </a>
+        <nav class="hidden gap-5 text-sm text-slate-300 md:flex">
+          <a class="hover:text-white" href="#projects">Projects</a>
+          <a class="hover:text-white" href="#method">Method</a>
+          <a class="hover:text-white" href="#trust">Security</a>
+          <a class="hover:text-white" href="#contact">Contact</a>
+        </nav>
       </div>
-      <nav class="nav">
-        <a href="#about" class="active">About</a>
-        <a href="#projects">Featured Projects</a>
-        <a href="#portfolio">Portfolio View</a>
-        <a href="#methodo-codestech">Metodo Codestech</a>
-        <a href="#decision-final">Decisao Final</a>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <section class="hero" id="about">
-      <div class="hero-grid">
-        <div class="card highlight">
-          <div class="badge">PUBLIC PRODUCT PORTFOLIO</div>
-          <h1>Product Ownership, AI Automation, SaaS Design and Strategic Delivery</h1>
-          <p>Codestech is a digital product lab focused on AI automation, SaaS platforms, APIs, business workflows and implementation-ready solutions. This portfolio is a public-facing layer built to present product thinking, business value and high-level architecture without exposing private code, credentials or client-sensitive production data.</p>
-          <div class="cta-row">
-            <a class="btn" href="#projects">Explore featured projects</a>
-            <a class="btn secondary" href="#methodo-codestech">See the Codestech method</a>
+    <main id="top" class="mx-auto max-w-7xl px-6 py-10 sm:py-14">
+      <section class="grid gap-8 lg:grid-cols-[1.2fr_.8fr]">
+        <div class="rounded-3xl border border-line bg-panel/90 p-8 shadow-glow">
+          <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Documentation-first portfolio</span>
+          <h1 class="mt-5 text-4xl font-black tracking-tight sm:text-6xl">Adriano Correa</h1>
+          <p class="mt-3 text-xl font-semibold text-slate-200 sm:text-2xl">Codestech Product & AI Portfolio</p>
+          <p class="mt-3 text-base text-muted sm:text-lg">Product Owner | AI Automation | SaaS Builder | Implementation Consultant | Founder</p>
+          <p class="mt-6 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">Executive public portfolio for product cases, automation systems, APIs, integrations and strategic project structuring. Built to show business value, high-level architecture, delivery logic and decision quality without exposing private production code.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="rounded-xl border border-sky-400/40 bg-sky-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-400">View Featured Projects</a>
+            <a href="https://www.linkedin.com/in/adriano-correa-39174956/" target="_blank" rel="noopener noreferrer" class="rounded-xl border border-line bg-slate-900/60 px-5 py-3 text-sm font-semibold text-white transition hover:border-sky-400/40 hover:text-sky-200">Connect on LinkedIn</a>
           </div>
+          <p class="mt-4 text-sm text-slate-400">Public portfolio. Private production code protected.</p>
         </div>
-        <div class="hero-kpis">
-          <div class="kpi card">
-            <span class="badge">POSITIONING</span>
-            <strong>Adriano Correa</strong>
-            <span class="muted">Product Owner | AI Automation Builder | SaaS Builder | Implementation Consultant | Founder Codestech</span>
-          </div>
-          <div class="kpi card">
-            <span class="badge">FOCUS</span>
-            <strong>13 cases</strong>
-            <span class="muted">AI, SaaS, APIs, hospitality, EdTech, funding, ESG and strategic project structuring.</span>
-          </div>
-          <div class="kpi card">
-            <span class="badge">PUBLIC-SAFE</span>
-            <strong>No private code</strong>
-            <span class="muted">Only strategic descriptions, conceptual architecture and sanitized portfolio material.</span>
-          </div>
-          <div class="kpi card">
-            <span class="badge">OPERATING LENS</span>
-            <strong>From idea to delivery</strong>
-            <span class="muted">Discovery, roadmap, PMO, implementation logic, funding and business framing.</span>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section" id="positioning">
-      <div class="section-title">
-        <div>
-          <div class="badge">PROFESSIONAL POSITIONING</div>
-          <h2>Cross-functional product work with strategic and operational depth</h2>
-        </div>
-      </div>
-      <div class="grid grid-4">
-        <article class="card"><h3>Product Ownership</h3><p class="muted">Discovery, prioritization, backlog, stakeholder alignment and MVP framing.</p></article>
-        <article class="card"><h3>AI Automation</h3><p class="muted">Conversational flows, workflow design, productivity systems and AI-assisted operations.</p></article>
-        <article class="card"><h3>SaaS and APIs</h3><p class="muted">Service layers, integration logic, product infrastructure and platform thinking.</p></article>
-        <article class="card"><h3>Implementation Consulting</h3><p class="muted">Execution plans, PMO structure, documentation and public-ready business cases.</p></article>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="section-title">
-        <div>
-          <div class="badge">FEATURED PROJECTS</div>
-          <h2>Selected projects presented as public case studies</h2>
-        </div>
-      </div>
-      <div class="card" style="overflow:auto">
-        <table class="project-table">
-          <thead>
-            <tr>
-              <th>Project</th>
-              <th>Category</th>
-              <th>Problem</th>
-              <th>Solution</th>
-              <th>Stack</th>
-              <th>Status</th>
-              <th>Links</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Schoolia Training OS</td><td>EdTech / SaaS / AI</td><td>Structured AI training with guided learning and operational control.</td><td>Training platform with learning journeys, tutor support and admin workflows.</td><td>React, Next.js, FastAPI, PostgreSQL, AI workflows, to be confirmed</td><td>MVP</td><td><div class="project-actions"><a class="btn secondary" href="./projects/schoolia-training-os.md">Ver case no GitHub</a><a class="btn" href="./projects/schoolia-training-os.html">Abrir HTML executivo</a></div></td></tr>
-            <tr><td>WhatsBot AI</td><td>AI Automation / WhatsApp</td><td>Faster response, qualification and lead follow-up.</td><td>Conversational automation engine for intake, qualification and guided flows.</td><td>Python, FastAPI, WhatsApp APIs, PostgreSQL, OpenAI, to be confirmed</td><td>In development</td><td><div class="project-actions"><a class="btn secondary" href="./projects/whatsbot-ai.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Codestech Mini API</td><td>API Platform</td><td>Lightweight service layer for early-stage products and integrations.</td><td>Internal API foundation for modular product services and experiments.</td><td>Python, FastAPI, REST APIs, SQLite/PostgreSQL, to be confirmed</td><td>In development</td><td><div class="project-actions"><a class="btn secondary" href="./projects/codestech-mini-api.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Codestech Lead API</td><td>LeadOps / Integrations</td><td>Need for a stable lead entry layer before CRM routing.</td><td>Central lead intake API with validation, dedupe and downstream dispatch.</td><td>Python, FastAPI, PostgreSQL, webhooks, automation tools</td><td>Production</td><td><div class="project-actions"><a class="btn secondary" href="./projects/lead-api.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Codestech Website</td><td>Web Presence / Growth</td><td>Need for clearer positioning and conversion paths.</td><td>Brand and conversion website aligned with product and service narrative.</td><td>React, TypeScript, Vite, HTML, CSS, to be confirmed</td><td>To be confirmed</td><td><div class="project-actions"><a class="btn secondary" href="./projects/codestech-site.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Site Integration Project</td><td>Integrations / WebOps</td><td>Reliable lead, form and CRM connectivity.</td><td>Integration layer connecting website events to automations and backend services.</td><td>APIs, webhooks, CRM integrations, Make/n8n, to be confirmed</td><td>To be confirmed</td><td><div class="project-actions"><a class="btn secondary" href="./projects/projeto-integracao-site.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>NewHotel Availability Agent</td><td>Hospitality Tech / AI</td><td>Faster handling of availability requests with operational context.</td><td>AI-assisted availability agent for intake, triage and booking-adjacent workflows.</td><td>Python, AI workflows, hospitality integrations, to be confirmed</td><td>Prototype</td><td><div class="project-actions"><a class="btn secondary" href="./projects/newhotel-availability-agent.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>NewHotel Availability Web</td><td>Hospitality Tech / Web App</td><td>Need for a web layer for visibility and execution.</td><td>Web experience supporting availability workflows and user interaction.</td><td>Next.js, React, TypeScript, to be confirmed</td><td>Prototype</td><td><div class="project-actions"><a class="btn secondary" href="./projects/newhotel-availability-web.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Dora ROI Builder</td><td>Compliance / ROI / SaaS</td><td>Need for clearer justification around compliance, risk and investment.</td><td>Product concept for structured ROI, risk and decision support.</td><td>Product design, workflow logic, AI-assisted analysis, to be confirmed</td><td>Concept</td><td><div class="project-actions"><a class="btn secondary" href="./projects/dora-roi-builder.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Funding Radar / Portugal 2030</td><td>Funding / GovTech</td><td>Monitoring funding opportunities and public notices.</td><td>Radar-style monitoring concept for notices, categorization and prioritization.</td><td>Research workflows, automation, data parsing, to be confirmed</td><td>Concept</td><td><div class="project-actions"><a class="btn secondary" href="./projects/funding-radar-portugal-2030.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>Geres Digital Experience Network</td><td>Tourism / Platform Strategy</td><td>Need for coordinated digital discovery and partner participation.</td><td>Territorial experience platform connecting visitors, partners and promoters.</td><td>Web platform, APIs, dashboards, analytics, integrations, to be confirmed</td><td>Concept</td><td><div class="project-actions"><a class="btn secondary" href="./projects/geres-digital-experience-network.md">Ver case no GitHub</a><span class="mini-pill">HTML executivo: to be confirmed</span></div></td></tr>
-            <tr><td>EcoDigi Lab Portugal</td><td>Social Innovation / ESG / Education</td><td>Need for a modular innovation model connecting digital education, sustainability and social impact.</td><td>Hub model combining education, partnership logic, funding, ESG and community activation.</td><td>Program design, platform logic, PMO, funding architecture, to be confirmed</td><td>Concept</td><td><div class="project-actions"><a class="btn secondary" href="./projects/ecodigi-lab-portugal.md">Ver case no GitHub</a><a class="btn" href="./projects/ecodigi-lab-portugal.html">Abrir HTML executivo</a></div></td></tr>
-            <tr><td>Funding Portfolio OS / P01</td><td>Strategic Structuring / Funding / PMO</td><td>Strong ideas often lack enough structure to become discussable, executable and fundable.</td><td>Strategic portfolio model combining thesis, funding, roadmap, PMO and executive presentation.</td><td>Executive HTML, PMO logic, AI-assisted structuring, to be confirmed</td><td>Concept</td><td><div class="project-actions"><a class="btn secondary" href="./projects/funding-portfolio-os-p01.md">Ver case no GitHub</a><a class="btn" href="./projects/funding-portfolio-os-p01.html">Abrir HTML executivo</a></div></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="section" id="navigable-portfolio">
-      <div class="section-title">
-        <div>
-          <div class="badge">PORTFOLIO NAVEGAVEL</div>
-          <h2>Public executive views recruiters can open directly</h2>
-        </div>
-      </div>
-      <div class="grid grid-2">
-        <article class="card highlight">
-          <div class="badge">STRATEGIC CASE</div>
-          <h3>Schoolia Training OS</h3>
-          <p class="muted">Plataforma escola digital com IA, assinaturas, vendas e operacao SaaS, preparada para validar aprendizagem, produto e recorrencia.</p>
-          <div class="project-actions">
-            <a class="btn secondary" href="./projects/schoolia-training-os.md">Ver case no GitHub</a>
-            <a class="btn" href="./projects/schoolia-training-os.html">Abrir HTML executivo</a>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+          <div class="rounded-3xl border border-line bg-panel p-6">
+            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Positioning</span>
+            <p class="mt-3 text-2xl font-bold">13 case studies</p>
+            <p class="mt-2 text-sm text-muted">Portfolio spanning AI automation, SaaS, APIs, hospitality, funding, ESG and strategic delivery.</p>
           </div>
-        </article>
-        <article class="card highlight">
-          <div class="badge">STRATEGIC CASE</div>
-          <h3>EcoDigi Lab Portugal</h3>
-          <p class="muted">Hub modular de inovacao, educacao digital, sustentabilidade e impacto social com estrutura orientada a associacao, consorcio, funding, mecenato e ESG.</p>
-          <div class="project-actions">
-            <a class="btn secondary" href="./projects/ecodigi-lab-portugal.md">Ver case no GitHub</a>
-            <a class="btn" href="./projects/ecodigi-lab-portugal.html">Abrir HTML executivo</a>
+          <div class="rounded-3xl border border-line bg-panel p-6">
+            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Operating Lens</span>
+            <p class="mt-3 text-2xl font-bold">From idea to execution</p>
+            <p class="mt-2 text-sm text-muted">Discovery, architecture, roadmap, PMO, communication and public-safe documentation.</p>
           </div>
-        </article>
-        <article class="card highlight">
-          <div class="badge">STRATEGIC CASE</div>
-          <h3>Funding Portfolio OS / P01</h3>
-          <p class="muted">Estruturacao de projetos estrategicos em camadas: problema, tese, funding, roadmap, PMO, WBS e versao final executiva para validacao e apresentacao.</p>
-          <div class="project-actions">
-            <a class="btn secondary" href="./projects/funding-portfolio-os-p01.md">Ver case no GitHub</a>
-            <a class="btn" href="./projects/funding-portfolio-os-p01.html">Abrir HTML executivo</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="expertise">
-      <div class="section-title">
-        <div>
-          <div class="badge">AREAS OF EXPERTISE</div>
-          <h2>Domains where product, technology and business execution meet</h2>
-        </div>
-      </div>
-      <div class="pill-row">
-        <span class="mini-pill">Product Ownership</span>
-        <span class="mini-pill">AI Automation</span>
-        <span class="mini-pill">SaaS Platforms</span>
-        <span class="mini-pill">APIs and Integrations</span>
-        <span class="mini-pill">WhatsApp Automation</span>
-        <span class="mini-pill">CRM and Lead Management</span>
-        <span class="mini-pill">EdTech</span>
-        <span class="mini-pill">Hospitality Tech</span>
-        <span class="mini-pill">RegTech and Compliance</span>
-        <span class="mini-pill">Funding and GovTech</span>
-        <span class="mini-pill">Social Innovation and ESG</span>
-      </div>
-    </section>
-
-    <section class="section" id="portfolio">
-      <div class="section-title">
-        <div>
-          <div class="badge">PORTFOLIO VIEW</div>
-          <h2>How the portfolio is organized for recruiters, clients and LinkedIn</h2>
-        </div>
-      </div>
-      <div class="grid grid-3">
-        <article class="card">
-          <h3>Recommended highlights for recruiters</h3>
-          <ul class="list-clean">
-            <li>Schoolia Training OS</li>
-            <li>WhatsBot AI</li>
-            <li>Codestech Lead API</li>
-            <li>NewHotel Availability Agent</li>
-            <li>Dora ROI Builder</li>
-            <li>EcoDigi Lab Portugal</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Recommended highlights for clients</h3>
-          <ul class="list-clean">
-            <li>Codestech Lead API</li>
-            <li>WhatsBot AI</li>
-            <li>Site Integration Project</li>
-            <li>NewHotel Availability Agent</li>
-            <li>Codestech Website</li>
-            <li>EcoDigi Lab Portugal</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Recommended highlights for LinkedIn</h3>
-          <ul class="list-clean">
-            <li>Schoolia Training OS</li>
-            <li>WhatsBot AI</li>
-            <li>NewHotel Availability Agent</li>
-            <li>Dora ROI Builder</li>
-            <li>Funding Radar / Portugal 2030</li>
-            <li>EcoDigi Lab Portugal</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="stack">
-      <div class="section-title">
-        <div>
-          <div class="badge">TECH STACK</div>
-          <h2>Technology and delivery toolkit</h2>
-        </div>
-      </div>
-      <div class="grid grid-4">
-        <article class="card"><h3>Frontend</h3><p class="muted">React, TypeScript, JavaScript, Vite, HTML, CSS</p></article>
-        <article class="card"><h3>Backend</h3><p class="muted">Python, FastAPI, Node.js, REST APIs</p></article>
-        <article class="card"><h3>Data</h3><p class="muted">PostgreSQL, SQLite, Google Sheets, to be confirmed</p></article>
-        <article class="card"><h3>Automation and AI</h3><p class="muted">Make, n8n, Monday, WhatsApp APIs, OpenAI, prompt engineering, AI agents</p></article>
-      </div>
-    </section>
-
-    <section class="section" id="methodo-codestech">
-      <div class="section-title">
-        <div>
-          <div class="badge">METODO CODESTECH</div>
-          <h2>Como eu estruturo projetos - Metodo Codestech</h2>
-        </div>
-      </div>
-
-      <article class="card section">
-        <h3>1. Visao geral do metodo</h3>
-        <p class="muted">Eu estruturo projetos em camadas para transformar uma ideia solta em uma versao executiva, apresentavel e orientada a decisao. O foco nao e apenas software. O foco e preparar um projeto estrategico com clareza de problema, viabilidade, entrega e narrativa executiva.</p>
-        <div class="grid grid-2">
-          <div class="card">
-            <ul class="list-clean">
-              <li>Problema real</li>
-              <li>Diagnostico do mercado ou territorio</li>
-              <li>Tese de solucao</li>
-              <li>Modelo de negocio</li>
-              <li>Plataforma ou software</li>
-            </ul>
-          </div>
-          <div class="card">
-            <ul class="list-clean">
-              <li>Roadmap de execucao</li>
-              <li>Orcamento e funding</li>
-              <li>Riscos</li>
-              <li>PMO e plano de entrega</li>
-              <li>Material final para apresentacao</li>
-            </ul>
-          </div>
-        </div>
-      </article>
-
-      <article class="card section">
-        <h3>2. Jornada de criacao de um projeto</h3>
-        <div class="timeline">
-          <div class="timeline-step"><strong>Ideia inicial</strong><div class="muted">Primeira formulacao do problema, da oportunidade e do efeito desejado.</div></div>
-          <div class="timeline-step"><strong>Pesquisa e diagnostico</strong><div class="muted">Levantamento de contexto, benchmarking, territorio, mercado, necessidade e restricoes.</div></div>
-          <div class="timeline-step"><strong>Definicao da tese</strong><div class="muted">Escolha da proposta central, do posicionamento e da narrativa de valor.</div></div>
-          <div class="timeline-step"><strong>Arquitetura da solucao</strong><div class="muted">Estruturacao do modelo operacional, servicos, fluxos, software e integracoes.</div></div>
-          <div class="timeline-step"><strong>Modelo financeiro</strong><div class="muted">Orcamento, custos, sustentabilidade, fontes de receita e financiamento.</div></div>
-          <div class="timeline-step"><strong>Roadmap 0-30 / 30-60 / 60-90 dias</strong><div class="muted">Priorizacao de entregas, fases de execucao e milestones praticos.</div></div>
-          <div class="timeline-step"><strong>PMO e WBS</strong><div class="muted">Plano de trabalho, pacotes de entrega, governanca, dependencias e acompanhamento.</div></div>
-          <div class="timeline-step"><strong>Versao executiva final</strong><div class="muted">Documento, deck ou pagina consolidada para validacao interna, parceiros ou candidaturas.</div></div>
-          <div class="timeline-step"><strong>Publicacao no GitHub / LinkedIn</strong><div class="muted">Adaptacao do material para portfolio profissional publico, sem exposicao sensivel.</div></div>
-        </div>
-      </article>
-
-      <article class="card section">
-        <h3>3. Dois exemplos reais de projeto</h3>
-        <div class="grid grid-2">
-          <div class="card highlight">
-            <div class="badge">EXEMPLO 1</div>
-            <h3>Funding Portfolio OS / P01 Geres Digital Experience Network</h3>
-            <p class="muted">Projeto estruturado para turismo, funding, SGPI, software territorial, PMO, WBS, orcamento, roadmap e candidatura. O objetivo e transformar uma oportunidade territorial em um caso com base estrategica, operacional e apresentavel para decisores.</p>
-            <div class="pill-row">
-              <span class="mini-pill">Turismo</span>
-              <span class="mini-pill">Funding</span>
-              <span class="mini-pill">SGPI</span>
-              <span class="mini-pill">PMO</span>
-              <span class="mini-pill">Roadmap</span>
-              <span class="mini-pill">Candidatura</span>
-            </div>
-          </div>
-          <div class="card highlight">
-            <div class="badge">EXEMPLO 2</div>
-            <h3>EcoDigi Lab Portugal</h3>
-            <p class="muted">Hub modular de inovacao, educacao digital, sustentabilidade e impacto social para jovens, com modelo baseado em associacao, consorcio, fundos publicos, mecenato e ESG. O caso demonstra estruturacao de proposta, viabilidade, governanca e narrativa para ecossistema.</p>
-            <div class="pill-row">
-              <span class="mini-pill">Inovacao</span>
-              <span class="mini-pill">Educacao Digital</span>
-              <span class="mini-pill">Sustentabilidade</span>
-              <span class="mini-pill">Impacto Social</span>
-              <span class="mini-pill">ESG</span>
-              <span class="mini-pill">Consorcio</span>
+          <div class="rounded-3xl border border-line bg-panel p-6 sm:col-span-2 lg:col-span-1">
+            <span class="text-xs font-semibold uppercase tracking-[0.18em] text-slate-300">Key Links</span>
+            <div class="mt-4 flex flex-wrap gap-3 text-sm">
+              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="./README.md">README</a>
+              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="./PORTFOLIO.md">PORTFOLIO</a>
+              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="./SECURITY.md">SECURITY</a>
+              <a class="rounded-full border border-line px-3 py-2 text-slate-200 hover:border-sky-400/40" href="https://github.com/AdrianoPortuga/codestech-product-portfolio" target="_blank" rel="noopener noreferrer">Repository</a>
             </div>
           </div>
         </div>
-      </article>
+      </section>
 
-      <article class="card section">
-        <h3>4. O que isso demonstra para recrutadores</h3>
-        <div class="grid grid-4">
-          <div class="card"><h4>Visao de produto</h4><p class="muted">Capacidade de definir problema, proposta de valor e direcao de produto.</p></div>
-          <div class="card"><h4>Pensamento estrategico</h4><p class="muted">Leitura de contexto, mercado, territorio e tese de execucao.</p></div>
-          <div class="card"><h4>Projetos executaveis</h4><p class="muted">Transformacao de ideias em planos acionaveis com estrutura e prioridades.</p></div>
-          <div class="card"><h4>Funding e viabilidade</h4><p class="muted">Noção de sustentabilidade, orcamento, financiamento e aderencia institucional.</p></div>
-          <div class="card"><h4>Organizacao PMO</h4><p class="muted">Governanca, WBS, milestones, entregas e acompanhamento de execucao.</p></div>
-          <div class="card"><h4>Documentacao clara</h4><p class="muted">Material legivel, organizado e reaproveitavel para times e stakeholders.</p></div>
-          <div class="card"><h4>Comunicacao executiva</h4><p class="muted">Narrativa adequada para decisores, parceiros, candidaturas e portfolio.</p></div>
-          <div class="card"><h4>IA como ferramenta</h4><p class="muted">Uso de IA para produtividade, estrutura, analise e aceleracao do trabalho.</p></div>
-        </div>
-      </article>
-
-      <article class="card section">
-        <h3>5. Proximo passo</h3>
-        <p class="note">Apos validacao da versao final, estes projetos serao publicados em repositorios organizados no GitHub e utilizados como portfolio profissional no LinkedIn, demonstrando minha capacidade de atuar como Product Owner, Business Analyst, PMO, AI Product Strategist e Implementation Consultant.</p>
-      </article>
-
-      <article class="card section">
-        <h3>Tabela comparativa do metodo</h3>
-        <table class="compare-table">
-          <thead>
-            <tr>
-              <th>Camada</th>
-              <th>Pergunta central</th>
-              <th>Entregavel esperado</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Problema real</td><td>Qual dor ou oportunidade justifica o projeto?</td><td>Enquadramento do desafio</td></tr>
-            <tr><td>Diagnostico</td><td>O que o mercado, territorio ou contexto mostra?</td><td>Pesquisa, leitura de contexto e benchmark</td></tr>
-            <tr><td>Tese de solucao</td><td>Qual e a abordagem mais coerente?</td><td>Proposta de valor e narrativa central</td></tr>
-            <tr><td>Modelo de negocio</td><td>Como o projeto se sustenta?</td><td>Logica de receita, funding ou operacao</td></tr>
-            <tr><td>Plataforma/software</td><td>Qual estrutura operacional e tecnica suporta a execucao?</td><td>Arquitetura de produto e solucao</td></tr>
-            <tr><td>Roadmap + PMO</td><td>Como isso sai do papel?</td><td>Fases, WBS, plano de entrega e governanca</td></tr>
-            <tr><td>Versao executiva</td><td>Como o projeto sera apresentado e validado?</td><td>Documento, deck, pagina ou portfolio publico</td></tr>
-          </tbody>
-        </table>
-      </article>
-    </section>
-
-    <section class="section" id="decision-final">
-      <div class="section-title">
-        <div>
-          <div class="badge">DECISAO FINAL</div>
-          <h2>Why this portfolio exists and how it should be used</h2>
-        </div>
-      </div>
-      <div class="grid grid-2">
-        <article class="card">
-          <h3>Public layer, private implementation</h3>
-          <p class="muted">This repository is intentionally documentation-first. It exists to present Codestech work through strategic descriptions, conceptual architecture and sanitized material. Real production systems, internal repositories, credentials and client-sensitive data remain private.</p>
+      <section class="mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <article class="rounded-3xl border border-line bg-panel p-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation</p>
+          <h2 class="mt-3 text-2xl font-bold">Operational acceleration</h2>
+          <p class="mt-2 text-sm text-muted">Automation cases designed to reduce response friction, improve routing and support real business workflows.</p>
         </article>
-        <article class="card">
-          <h3>Portfolio with a clear audience</h3>
-          <p class="muted">Recruiters can use it to evaluate product and delivery maturity. Clients can use it to understand integration and solution design capacity. Partners can use it to assess positioning, execution logic and project-structuring capability.</p>
+        <article class="rounded-3xl border border-line bg-panel p-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Platforms</p>
+          <h2 class="mt-3 text-2xl font-bold">Structured digital products</h2>
+          <p class="mt-2 text-sm text-muted">Platform cases focused on scalability, user journeys, recurring value and product-system thinking.</p>
         </article>
+        <article class="rounded-3xl border border-line bg-panel p-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">APIs & Integrations</p>
+          <h2 class="mt-3 text-2xl font-bold">Reliable infrastructure</h2>
+          <p class="mt-2 text-sm text-muted">API and integration layers intended to improve continuity between websites, CRM, automation and operations.</p>
+        </article>
+        <article class="rounded-3xl border border-line bg-panel p-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Strategy</p>
+          <h2 class="mt-3 text-2xl font-bold">Decision-ready structuring</h2>
+          <p class="mt-2 text-sm text-muted">Strategic cases built around viability, PMO logic, territorial framing, funding and executive presentation.</p>
+        </article>
+      </section>
+
+      <section id="projects" class="mt-16">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Featured Projects</span>
+            <h2 class="mt-4 text-3xl font-black tracking-tight sm:text-4xl">Executive project selection</h2>
+            <p class="mt-3 max-w-3xl text-sm leading-7 text-muted">Use the filters below to navigate the portfolio by category. Every project card links to a public-safe case study in `/projects`.</p>
+          </div>
+          <div class="flex flex-wrap gap-2" id="filters">
+            <button class="filter-btn rounded-full border border-sky-400/40 bg-sky-500 px-4 py-2 text-sm font-semibold text-slate-950" data-filter="all">All</button>
+            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="ai">AI & Automation Systems</button>
+            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="saas">SaaS & Web Platforms</button>
+            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="infra">Infrastructure & APIs</button>
+            <button class="filter-btn rounded-full border border-line px-4 py-2 text-sm font-semibold text-slate-200" data-filter="funding">Funding & Geo-Strategy</button>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3" id="project-grid">
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="ai">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation Systems</p>
+                <h3 class="mt-2 text-xl font-bold">WhatsBot AI</h3>
+              </div>
+              <span class="rounded-full border border-amber-400/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-200">In development</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Conversational automation case designed to reduce response friction, improve qualification and create more reliable routing in operational messaging workflows.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-line px-3 py-1">WhatsApp APIs</span>
+              <span class="rounded-full border border-line px-3 py-1">OpenAI</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/whatsbot-ai.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="ai">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation Systems</p>
+                <h3 class="mt-2 text-xl font-bold">NewHotel Availability Agent</h3>
+              </div>
+              <span class="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-200">Prototype</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Hospitality AI use case intended to improve availability handling, support triage and reduce operational delays between contact and response.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">AI Workflows</span>
+              <span class="rounded-full border border-line px-3 py-1">Hospitality</span>
+              <span class="rounded-full border border-line px-3 py-1">Integrations</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/newhotel-availability-agent.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="ai">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">AI & Automation Systems</p>
+                <h3 class="mt-2 text-xl font-bold">Dora ROI Builder</h3>
+              </div>
+              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Strategic concept for improving decision quality around compliance, risk, ROI and investment justification in business transformation contexts.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">ROI Logic</span>
+              <span class="rounded-full border border-line px-3 py-1">Risk Framing</span>
+              <span class="rounded-full border border-line px-3 py-1">AI-assisted Analysis</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/dora-roi-builder.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
+                <h3 class="mt-2 text-xl font-bold">Schoolia Training OS</h3>
+              </div>
+              <span class="rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">MVP</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Operational digital school concept combining learning journeys, AI tutoring, business logic and platform structure to support scalable training delivery.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">Next.js</span>
+              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-line px-3 py-1">PostgreSQL</span>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/schoolia-training-os.md">View Case Study</a>
+              <a class="inline-flex rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-4 py-3 text-sm font-semibold text-emerald-200 hover:border-emerald-300/40" href="./projects/schoolia-training-os.html">Executive HTML</a>
+            </div>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
+                <h3 class="mt-2 text-xl font-bold">Codestech Website</h3>
+              </div>
+              <span class="rounded-full border border-slate-400/30 bg-slate-500/10 px-3 py-1 text-xs font-semibold text-slate-200">To be confirmed</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Brand and conversion layer intended to strengthen market positioning, communicate capabilities and support opportunity generation.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">React</span>
+              <span class="rounded-full border border-line px-3 py-1">TypeScript</span>
+              <span class="rounded-full border border-line px-3 py-1">Vite</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/codestech-site.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
+                <h3 class="mt-2 text-xl font-bold">NewHotel Availability Web</h3>
+              </div>
+              <span class="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-200">Prototype</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Web-facing hospitality layer intended to support guided interaction, visibility and operational continuity around availability workflows.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">Next.js</span>
+              <span class="rounded-full border border-line px-3 py-1">React</span>
+              <span class="rounded-full border border-line px-3 py-1">TypeScript</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/newhotel-availability-web.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="saas">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">SaaS & Web Platforms</p>
+                <h3 class="mt-2 text-xl font-bold">EcoDigi Lab Portugal</h3>
+              </div>
+              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Modular hub concept combining digital education, sustainability, social impact, funding logic and partnership-ready executive structure.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">ESG</span>
+              <span class="rounded-full border border-line px-3 py-1">PMO</span>
+              <span class="rounded-full border border-line px-3 py-1">Funding Architecture</span>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/ecodigi-lab-portugal.md">View Case Study</a>
+              <a class="inline-flex rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-4 py-3 text-sm font-semibold text-emerald-200 hover:border-emerald-300/40" href="./projects/ecodigi-lab-portugal.html">Executive HTML</a>
+            </div>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="infra">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Infrastructure & APIs</p>
+                <h3 class="mt-2 text-xl font-bold">Codestech Mini API</h3>
+              </div>
+              <span class="rounded-full border border-amber-400/30 bg-amber-500/10 px-3 py-1 text-xs font-semibold text-amber-200">In development</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Lightweight API foundation used to support modular service delivery, integration experiments and product infrastructure evolution.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-line px-3 py-1">REST APIs</span>
+              <span class="rounded-full border border-line px-3 py-1">SQLite/PostgreSQL</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/codestech-mini-api.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="infra">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Infrastructure & APIs</p>
+                <h3 class="mt-2 text-xl font-bold">Codestech Lead API</h3>
+              </div>
+              <span class="rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-200">Production</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Central lead intake layer designed to improve validation, deduplication and downstream routing into CRM and automation systems.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">FastAPI</span>
+              <span class="rounded-full border border-line px-3 py-1">PostgreSQL</span>
+              <span class="rounded-full border border-line px-3 py-1">Webhooks</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/lead-api.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="infra">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300">Infrastructure & APIs</p>
+                <h3 class="mt-2 text-xl font-bold">Site Integration Project</h3>
+              </div>
+              <span class="rounded-full border border-slate-400/30 bg-slate-500/10 px-3 py-1 text-xs font-semibold text-slate-200">To be confirmed</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Website-to-operations integration case focused on reducing manual handoff and improving consistency between forms, APIs, CRM and automation.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">APIs</span>
+              <span class="rounded-full border border-line px-3 py-1">CRM Integrations</span>
+              <span class="rounded-full border border-line px-3 py-1">Make/n8n</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/projeto-integracao-site.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="funding">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Geo-Strategy</p>
+                <h3 class="mt-2 text-xl font-bold">Funding Radar / Portugal 2030</h3>
+              </div>
+              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Monitoring concept intended to improve opportunity visibility, categorization and prioritization across funding-related notice workflows.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">Research Workflows</span>
+              <span class="rounded-full border border-line px-3 py-1">Monitoring</span>
+              <span class="rounded-full border border-line px-3 py-1">GovTech Logic</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/funding-radar-portugal-2030.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="funding">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Geo-Strategy</p>
+                <h3 class="mt-2 text-xl font-bold">Geres Digital Experience Network</h3>
+              </div>
+              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Territorial platform case connecting visitors, partners and promoters through discovery, coordination and regional experience logic.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">Platform Strategy</span>
+              <span class="rounded-full border border-line px-3 py-1">Tourism</span>
+              <span class="rounded-full border border-line px-3 py-1">Analytics</span>
+            </div>
+            <a class="mt-6 inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/geres-digital-experience-network.md">View Case Study</a>
+          </article>
+
+          <article class="project-card rounded-3xl border border-line bg-panel p-6" data-category="funding">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-lime-300">Funding & Geo-Strategy</p>
+                <h3 class="mt-2 text-xl font-bold">Funding Portfolio OS / P01</h3>
+              </div>
+              <span class="rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold text-fuchsia-200">Concept</span>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-muted">Strategic structuring case for transforming strong ideas into discussable, fundable and execution-ready initiatives with PMO discipline.</p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-200">
+              <span class="rounded-full border border-line px-3 py-1">PMO</span>
+              <span class="rounded-full border border-line px-3 py-1">WBS</span>
+              <span class="rounded-full border border-line px-3 py-1">Executive Framing</span>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="inline-flex rounded-xl border border-line bg-slate-900/60 px-4 py-3 text-sm font-semibold text-white hover:border-sky-400/40 hover:text-sky-200" href="./projects/funding-portfolio-os-p01.md">View Case Study</a>
+              <a class="inline-flex rounded-xl border border-emerald-400/20 bg-emerald-500/10 px-4 py-3 text-sm font-semibold text-emerald-200 hover:border-emerald-300/40" href="./projects/funding-portfolio-os-p01.html">Executive HTML</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="method" class="mt-16 rounded-3xl border border-line bg-panel p-8">
+        <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Metodo Codestech</span>
+        <h2 class="mt-4 text-3xl font-black tracking-tight sm:text-4xl">How projects move from idea to executive presentation</h2>
+        <p class="mt-4 max-w-4xl text-sm leading-7 text-muted">The Codestech method structures initiatives in layers so they become clearer, more executable and more presentable. The goal is not just software production. The goal is decision-ready product and project framing.</p>
+        <div class="mt-8 grid gap-5 lg:grid-cols-2">
+          <div class="rounded-3xl border border-line bg-slate-950/40 p-6">
+            <h3 class="text-lg font-bold">Method layers</h3>
+            <ul class="mt-4 space-y-3 text-sm text-muted">
+              <li>Problem framing</li>
+              <li>Market or territorial diagnosis</li>
+              <li>Solution thesis</li>
+              <li>Business or funding model</li>
+              <li>Platform and software logic</li>
+              <li>Roadmap and PMO structure</li>
+              <li>Budget, risks and final executive material</li>
+            </ul>
+          </div>
+          <div class="rounded-3xl border border-line bg-slate-950/40 p-6">
+            <h3 class="text-lg font-bold">Creation journey</h3>
+            <ol class="mt-4 space-y-3 text-sm text-muted">
+              <li>1. Initial idea</li>
+              <li>2. Research and diagnosis</li>
+              <li>3. Solution thesis</li>
+              <li>4. Architecture and operating model</li>
+              <li>5. Financial model and viability</li>
+              <li>6. 0-30 / 30-60 / 60-90 roadmap</li>
+              <li>7. PMO and WBS</li>
+              <li>8. Executive final version</li>
+              <li>9. Public portfolio publication</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="trust" class="mt-16 grid gap-5 lg:grid-cols-[.9fr_1.1fr]">
+        <div class="rounded-3xl border border-line bg-panel p-8">
+          <span class="inline-flex rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300">Security / Trust</span>
+          <h2 class="mt-4 text-3xl font-black tracking-tight">Public-safe by design</h2>
+          <p class="mt-4 text-sm leading-7 text-muted">This portfolio is built to communicate value while protecting implementation assets. It is useful because it is selective, not because it is exhaustive.</p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <article class="rounded-3xl border border-line bg-panel p-6">
+            <h3 class="text-lg font-bold">No private source code</h3>
+            <p class="mt-2 text-sm text-muted">Production repositories and implementation logic remain private.</p>
+          </article>
+          <article class="rounded-3xl border border-line bg-panel p-6">
+            <h3 class="text-lg font-bold">No client data</h3>
+            <p class="mt-2 text-sm text-muted">No real customer records, identifiers or protected datasets are published.</p>
+          </article>
+          <article class="rounded-3xl border border-line bg-panel p-6">
+            <h3 class="text-lg font-bold">No credentials</h3>
+            <p class="mt-2 text-sm text-muted">Secrets, tokens, endpoints and internal URLs are excluded by policy.</p>
+          </article>
+          <article class="rounded-3xl border border-line bg-panel p-6">
+            <h3 class="text-lg font-bold">High-level architecture only</h3>
+            <p class="mt-2 text-sm text-muted">Architecture is shown conceptually, not operationally.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-16 rounded-3xl border border-line bg-panel p-8">
+        <div class="grid gap-8 lg:grid-cols-[1fr_.8fr]">
+          <div>
+            <span class="inline-flex rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">Final CTA</span>
+            <h2 class="mt-4 text-3xl font-black tracking-tight sm:text-4xl">Open the portfolio, review the cases, continue the conversation</h2>
+            <p class="mt-4 max-w-3xl text-sm leading-7 text-muted">This portfolio is intended to help recruiters, partners and clients understand how product, AI automation, APIs and strategic structuring are approached across Codestech initiatives.</p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <a class="rounded-2xl border border-sky-400/40 bg-sky-500 px-5 py-4 text-center text-sm font-semibold text-slate-950 transition hover:bg-sky-400" href="https://www.linkedin.com/in/adriano-correa-39174956/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="rounded-2xl border border-line bg-slate-900/60 px-5 py-4 text-center text-sm font-semibold text-white transition hover:border-sky-400/40" href="https://github.com/AdrianoPortuga" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="rounded-2xl border border-line bg-slate-900/60 px-5 py-4 text-center text-sm font-semibold text-white transition hover:border-sky-400/40" href="https://github.com/AdrianoPortuga/codestech-product-portfolio" target="_blank" rel="noopener noreferrer">Portfolio Repository</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-line/80 py-8">
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+        <span>Documentation-first public portfolio. Private production code protected.</span>
+        <a href="./SECURITY.md" class="hover:text-sky-200">Read security policy</a>
       </div>
-    </section>
+    </footer>
+  </div>
 
-    <section class="section" id="contact">
-      <div class="card">
-        <div class="badge">CONTACT</div>
-        <h2>Public portfolio contact placeholders</h2>
-        <p class="muted">LinkedIn: to be added<br>GitHub: to be added<br>Professional email: to be added</p>
-        <p class="muted">Unknown or unverified details remain marked as <strong>to be confirmed</strong>.</p>
-      </div>
-    </section>
+  <script>
+    const buttons = document.querySelectorAll(".filter-btn");
+    const cards = document.querySelectorAll(".project-card");
 
-    <p class="section"><a class="btn" href="#topo">Voltar ao inicio</a></p>
-  </main>
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
 
-  <footer>
-    2026 Codestech Product Portfolio - Public portfolio layer only.
-  </footer>
+        buttons.forEach((item) => {
+          item.classList.remove("bg-sky-500", "text-slate-950", "border-sky-400/40");
+          item.classList.add("border-line", "text-slate-200");
+        });
+
+        button.classList.add("bg-sky-500", "text-slate-950", "border-sky-400/40");
+        button.classList.remove("border-line", "text-slate-200");
+
+        cards.forEach((card) => {
+          const category = card.dataset.category;
+          const visible = filter === "all" || category === filter;
+          card.classList.toggle("hidden", !visible);
+        });
+      });
+    });
+  </script>
 </body>
 </html>
