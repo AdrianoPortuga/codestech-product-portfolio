@@ -13,6 +13,14 @@ Product Owner | AI Automation Builder | SaaS Builder | Implementation Consultant
 
 This portfolio highlights cross-functional work spanning product discovery, backlog ownership, solution architecture, implementation design, automation workflows and business-oriented delivery.
 
+## Portfólio navegável
+
+- [Página principal do portfólio](./index.html)
+- [EcoDigi Lab Portugal — case](./projects/ecodigi-lab-portugal.md)
+- [EcoDigi Lab Portugal — HTML executivo](./projects/ecodigi-lab-portugal.html)
+- [Funding Portfolio OS / P01 — case](./projects/funding-portfolio-os-p01.md)
+- [Funding Portfolio OS / P01 — HTML executivo](./projects/funding-portfolio-os-p01.html)
+
 ## Featured Projects
 
 | Project | Category | Problem | Solution | Stack | Status | Case Study Link |
@@ -28,6 +36,8 @@ This portfolio highlights cross-functional work spanning product discovery, back
 | Dora ROI Builder | Compliance / ROI / SaaS | Teams need clearer justification for compliance, risk and investment decisions. | Product concept for structured ROI, risk and decision support. | Product design, workflow logic, AI-assisted analysis, to be confirmed | Concept | [Case study](./projects/dora-roi-builder.md) |
 | Funding Radar / Portugal 2030 | Funding / GovTech / RegTech | Organizations need help monitoring funding opportunities and public notices. | Radar-style monitoring concept for notices, categorization and prioritization. | Research workflows, automation, data parsing, to be confirmed | Concept | [Case study](./projects/funding-radar-portugal-2030.md) |
 | Geres Digital Experience Network | Tourism / Platform Strategy | Regional ecosystems need coordinated digital discovery and partner participation. | Territorial experience platform connecting visitors, partners and promoters. | Web platform, APIs, dashboards, analytics, integrations, to be confirmed | Concept | [Case study](./projects/geres-digital-experience-network.md) |
+| EcoDigi Lab Portugal | Social Innovation / ESG / Education | Communities need a modular innovation model combining digital education, sustainability and social impact. | Hub model combining education, partnership logic, funding, ESG and community activation. | Program design, platform logic, PMO, funding architecture, to be confirmed | Concept | [Case study](./projects/ecodigi-lab-portugal.md) |
+| Funding Portfolio OS / P01 | Strategic Structuring / Funding / PMO | Strong ideas often lack enough structure to become discussable, executable and fundable. | Strategic portfolio model combining thesis, funding, roadmap, PMO and executive presentation. | Executive HTML, PMO logic, AI-assisted structuring, to be confirmed | Concept | [Case study](./projects/funding-portfolio-os-p01.md) |
 
 ## Areas of Expertise
 
