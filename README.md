@@ -15,6 +15,8 @@ This repository is an executive, documentation-first portfolio designed for recr
 
 It does not publish Codestech production code. Instead, it presents public-safe case studies, high-level architecture, business value, delivery logic and executive framing for real product initiatives whose implementation repositories remain private.
 
+**Public portfolio. Private production code protected.**
+
 ## Professional Positioning
 
 **Adriano Correa**  

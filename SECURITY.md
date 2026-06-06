@@ -59,7 +59,13 @@ If a detail is not clearly safe for public release, it should remain unpublished
 
 ## Reporting concerns
 
-If you identify any content that appears sensitive, excessive or wrongly published, report it immediately through a private channel so it can be reviewed and removed if necessary.
+If you identify any content that appears sensitive, excessive or wrongly published, report it through a GitHub issue when appropriate or direct contact through a private channel so it can be reviewed and removed if necessary.
+
+- Screenshots must be sanitized.
+- No internal endpoints.
+- No private repositories content.
+- No real client data.
+- No credentials or secrets.
 
 ## Public-safe operating principle
 
