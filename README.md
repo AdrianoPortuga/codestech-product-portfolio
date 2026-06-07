@@ -1,4 +1,4 @@
-# Adriano Correa | Codestech Product & AI Portfolio
+# Adriano Corrêa | Codestech Product & AI Portfolio
 
 `Product Owner` `AI Automation` `SaaS Builder` `Implementation Consultant` `Founder` `Documentation-First Portfolio` `Private Code Protected`
 
@@ -9,9 +9,17 @@
 - 🧩 [GitHub](https://github.com/AdrianoPortuga)
 - 🔒 [Politica de Seguranca](./SECURITY.md)
 
+## Use this portfolio
+
+- Web Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
+- GitHub Repository: https://github.com/AdrianoPortuga/codestech-product-portfolio
+- LinkedIn: https://www.linkedin.com/in/adriano-correa-39174956/
+
+**Public portfolio. Private production code protected.**
+
 ## About
 
-This repository is an executive, documentation-first portfolio designed for recruiters, investors, partners and clients evaluating Adriano Correa's work across product leadership, AI automation, SaaS design, implementation consulting and strategic delivery.
+This repository is an executive, documentation-first portfolio designed for recruiters, investors, partners and clients evaluating Adriano Corrêa's work across product leadership, AI automation, SaaS design, implementation consulting and strategic delivery.
 
 It does not publish Codestech production code. Instead, it presents public-safe case studies, high-level architecture, business value, delivery logic and executive framing for real product initiatives whose implementation repositories remain private.
 
@@ -19,7 +27,7 @@ It does not publish Codestech production code. Instead, it presents public-safe 
 
 ## Professional Positioning
 
-**Adriano Correa**  
+**Adriano Corrêa**  
 Product Owner | AI Automation Builder | SaaS Builder | Implementation Consultant | Founder Codestech
 
 This portfolio highlights the ability to move from idea framing to structured execution, combining:
@@ -134,6 +142,7 @@ This portfolio is intentionally public-safe:
 
 ## Contact
 
+- Portfolio: [adrianoportuga.github.io/codestech-product-portfolio](https://adrianoportuga.github.io/codestech-product-portfolio/)
 - LinkedIn: [adriano-correa-39174956](https://www.linkedin.com/in/adriano-correa-39174956/)
 - GitHub: [AdrianoPortuga](https://github.com/AdrianoPortuga)
 - Professional email: `to be confirmed`

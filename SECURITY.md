@@ -14,6 +14,7 @@ This repository exists as a public, documentation-first portfolio for Codestech 
 - Maturity descriptions, roadmaps and PMO-oriented planning
 - Sanitized screenshots and media approved for public display
 - Links to public portfolio material and GitHub Pages content
+- Primary public portfolio URL: https://adrianoportuga.github.io/codestech-product-portfolio/
 
 ## What is not allowed
 

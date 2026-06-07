@@ -1,5 +1,7 @@
 # LinkedIn Posts
 
+Main portfolio link: https://adrianoportuga.github.io/codestech-product-portfolio/
+
 ## 1. Reorganizando meu GitHub como portfolio de produtos reais
 
 **Titulo:** Reorganizando meu GitHub para mostrar produto, estrategia e execucao sem expor codigo privado
@@ -16,6 +18,8 @@ Em vez de usar o GitHub apenas como deposito tecnico, passei a trata-lo como uma
 Hoje, para mim, portfolio tecnico nao e apenas mostrar stack. E mostrar capacidade de decidir, estruturar e entregar.
 
 Se voce atua com produto, SaaS, automacao ou transformacao digital, vamos conectar.
+
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
 
 Hashtags: `#ProductOwner #AIAutomation #SaaS #GitHubPortfolio #DigitalProducts #Strategy`
 
@@ -36,6 +40,8 @@ Esse tipo de projeto mostra como IA gera mais valor quando entra dentro do fluxo
 
 Se voce atua em educacao, treinamento corporativo ou produto digital, vamos conectar.
 
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
+
 Hashtags: `#EdTech #AI #SaaSBuilder #ProductManagement #DigitalLearning`
 
 ## 3. WhatsBot AI - automacao de atendimento e qualificacao de leads
@@ -54,6 +60,8 @@ O WhatsBot AI nasce exatamente desse ponto: estruturar atendimento inicial, qual
 Nao se trata apenas de responder mensagens. Trata-se de organizar melhor a operacao por tras delas.
 
 Se esse tema faz parte do seu contexto, vamos conectar.
+
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
 
 Hashtags: `#WhatsAppAutomation #ConversationalAI #LeadManagement #Automation #ProductOwner`
 
@@ -74,6 +82,8 @@ Integracao boa raramente aparece. Mas quando falha, o negocio inteiro sente.
 
 Se voce lida com growth, CRM ou operacao digital, vamos conectar.
 
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
+
 Hashtags: `#APIs #CRM #LeadOps #Automation #FastAPI #IntegrationStrategy`
 
 ## 5. NewHotel Availability Agent - IA aplicada a hotelaria
@@ -93,6 +103,8 @@ Gosto desse tipo de projeto porque ele conecta servico, produto e operacao sem a
 
 Se voce atua em hotelaria, travel tech ou automacao de servicos, vamos conectar.
 
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
+
 Hashtags: `#HospitalityTech #AI #TravelTech #Automation #ProductStrategy`
 
 ## 6. Dora ROI Builder - produto de compliance, risco e ROI
@@ -111,6 +123,8 @@ Alguns nascem para resolver um problema mais estrategico: transformar temas de c
 Esse tipo de trabalho me interessa porque exige mais do que execucao tecnica: exige pensamento estruturado.
 
 Se voce trabalha com governanca, compliance ou produtos B2B, vamos conectar.
+
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
 
 Hashtags: `#Compliance #ROI #B2BProducts #ExecutiveCommunication #AI`
 
@@ -132,6 +146,8 @@ Continuo interessado em projetos onde produto, automacao e negocio se encontram 
 
 Se esse tambem e o seu foco, vamos conectar.
 
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
+
 Hashtags: `#ProductOwner #AIAutomation #SaaSBuilder #Strategy #DigitalProducts`
 
 ## 8. Por que criei um portfolio publico sem expor codigo privado
@@ -151,5 +167,7 @@ Por isso, decidi estruturar um portfolio publico que mostra como penso produto, 
 Para mim, portfolio profissional nao e sobre expor tudo. E sobre mostrar o que importa com maturidade.
 
 Se voce pensa tecnologia com responsabilidade e posicionamento, vamos conectar.
+
+Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
 
 Hashtags: `#GitHubPortfolio #SecurityByDesign #ProductThinking #Architecture #LinkedIn`

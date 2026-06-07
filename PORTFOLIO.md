@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-This repository is the public-facing showcase for Adriano Correa's work across product ownership, AI automation, SaaS structuring, implementation consulting and strategic project development through Codestech.
+This repository is the public-facing showcase for Adriano Corrêa's work across product ownership, AI automation, SaaS structuring, implementation consulting and strategic project development through Codestech.
+
+Main public portfolio link: https://adrianoportuga.github.io/codestech-product-portfolio/
 
 It is documentation-first by design. Its role is to make product reasoning, executive value, architecture direction and delivery maturity visible without exposing private production code, secrets, internal endpoints or client-sensitive data.
 
