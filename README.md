@@ -5,6 +5,7 @@
 ## Quick Links
 
 - 🚀 [Abrir Portfolio Web](https://adrianoportuga.github.io/codestech-product-portfolio/)
+- 📊 [Status Atual dos Projetos Codestech](./STATUS_PROJETOS_CODESTECH.md)
 - 👔 [LinkedIn](https://www.linkedin.com/in/adriano-correa-39174956/)
 - 🧩 [GitHub](https://github.com/AdrianoPortuga)
 - 🔒 [Politica de Seguranca](./SECURITY.md)
@@ -13,6 +14,7 @@
 
 - Web Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
 - GitHub Repository: https://github.com/AdrianoPortuga/codestech-product-portfolio
+- Current Project Status: [STATUS_PROJETOS_CODESTECH.md](./STATUS_PROJETOS_CODESTECH.md)
 - LinkedIn: https://www.linkedin.com/in/adriano-correa-39174956/
 
 **Public portfolio. Private production code protected.**
@@ -41,6 +43,7 @@ This portfolio highlights the ability to move from idea framing to structured ex
 
 ## Portfolio Navigable
 
+- [Current project status](./STATUS_PROJETOS_CODESTECH.md)
 - [Main portfolio page](./index.html)
 - [EcoDigi Lab Portugal - case study](./projects/ecodigi-lab-portugal.md)
 - [EcoDigi Lab Portugal - executive HTML](./projects/ecodigi-lab-portugal.html)
