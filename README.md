@@ -5,6 +5,7 @@
 ## Quick Links
 
 - 🚀 [Abrir Portfolio Web](https://adrianoportuga.github.io/codestech-product-portfolio/)
+- 🧠 [SchoolIA — Principal Engineering Case](./projects/schoolia-training-os.md)
 - 📊 [Status Atual dos Projetos Codestech](./STATUS_PROJETOS_CODESTECH.md)
 - 👔 [LinkedIn](https://www.linkedin.com/in/adriano-correa-39174956/)
 - 🧩 [GitHub](https://github.com/AdrianoPortuga)
@@ -14,6 +15,7 @@
 
 - Web Portfolio: https://adrianoportuga.github.io/codestech-product-portfolio/
 - GitHub Repository: https://github.com/AdrianoPortuga/codestech-product-portfolio
+- Principal Engineering Case: [SchoolIA Training OS](./projects/schoolia-training-os.md)
 - Current Project Status: [STATUS_PROJETOS_CODESTECH.md](./STATUS_PROJETOS_CODESTECH.md)
 - LinkedIn: https://www.linkedin.com/in/adriano-correa-39174956/
 
@@ -41,8 +43,27 @@ This portfolio highlights the ability to move from idea framing to structured ex
 - PMO-minded delivery structure
 - executive communication for stakeholders, partners and decision-makers
 
+## Engineering Evidence
+
+For technical evaluation, the recommended starting point is the **SchoolIA Training OS engineering case**.
+
+It documents a real product evolving across private implementation repositories and covers:
+
+- Next.js frontend + FastAPI backend
+- PostgreSQL-backed product flows
+- authentication and authorization
+- multi-course enrollment and commercial configuration
+- AI tutor context isolation
+- Vercel + Railway deployment model
+- production incident and rollback
+- migrations and operational maintenance
+- technical debt, testing strategy and observability roadmap
+
+➡️ [Read the SchoolIA Engineering Case](./projects/schoolia-training-os.md)
+
 ## Portfolio Navigable
 
+- [SchoolIA Training OS - principal engineering case](./projects/schoolia-training-os.md)
 - [Current project status](./STATUS_PROJETOS_CODESTECH.md)
 - [Main portfolio page](./index.html)
 - [EcoDigi Lab Portugal - case study](./projects/ecodigi-lab-portugal.md)
@@ -75,7 +96,7 @@ Unknown or unverified details remain explicitly marked as `to be confirmed`.
 
 | Project | Executive Value | Category | Status | Case Study |
 |---|---|---|---|---|
-| Schoolia Training OS | Structures AI-enabled training delivery as an operational digital school with product, learning and revenue logic. | SaaS & Web Platforms | MVP | [Case](./projects/schoolia-training-os.md) |
+| Schoolia Training OS | Structures AI-enabled training delivery as an operational digital school with product, learning and revenue logic. | SaaS & Web Platforms | MVP | [Engineering Case](./projects/schoolia-training-os.md) |
 | Codestech Website | Supports positioning, market credibility and conversion paths for services, products and partnerships. | SaaS & Web Platforms | To be confirmed | [Case](./projects/codestech-site.md) |
 | NewHotel Availability Web | Creates a presentable web layer for hospitality workflows that can scale beyond messaging-only interaction. | SaaS & Web Platforms | Prototype | [Case](./projects/newhotel-availability-web.md) |
 | EcoDigi Lab Portugal | Organizes digital education, sustainability and social-impact strategy into a fundable, partner-ready hub model. | SaaS & Web Platforms | Concept | [Case](./projects/ecodigi-lab-portugal.md) |
@@ -113,22 +134,25 @@ Unknown or unverified details remain explicitly marked as `to be confirmed`.
 ## Technology and Delivery Lens
 
 **Frontend**  
-React, TypeScript, JavaScript, Vite, HTML, CSS
+React, Next.js, TypeScript, JavaScript, Vite, HTML, CSS
 
 **Backend**  
 Python, FastAPI, Node.js, REST APIs
 
 **Databases**  
-PostgreSQL, SQLite, Google Sheets, `to be confirmed`
+PostgreSQL, SQLite, Google Sheets
 
 **Automation**  
 Make, n8n, Monday, WhatsApp APIs, CRM integrations
 
 **AI**  
-OpenAI, prompt engineering, AI agents, automation workflows
+OpenAI, prompt engineering, AI agents, contextual tutoring, automation workflows
 
 **Deploy**  
-GitHub Pages, Vercel, Render, Cloudflare, `to be confirmed`
+GitHub Pages, Vercel, Railway, Cloudflare
+
+**Engineering Practices**  
+Git, pull requests, incremental delivery, rollback, migration control, API integration, production debugging, public-safe technical documentation
 
 **Product**  
 Scrum, backlog, roadmap, discovery, MVP, stakeholder management
