@@ -61,6 +61,20 @@ It documents a real product evolving across private implementation repositories 
 
 ➡️ [Read the SchoolIA Engineering Case](./projects/schoolia-training-os.md)
 
+### Public Technical Access — SchoolIA
+
+For technical review, the SchoolIA production stack exposes public-safe access points that allow a Tech Lead, engineering partner or evaluator to inspect the application and API contract without access to the private source repositories.
+
+- **SchoolIA Web:** https://www.schoolia.online
+- **API Base:** https://api.schoolia.online
+- **Swagger UI / OpenAPI:** https://api.schoolia.online/docs
+- **ReDoc:** https://api.schoolia.online/redoc
+- **OpenAPI JSON:** https://api.schoolia.online/openapi.json
+
+**Technical stack:** React / Next.js frontend, FastAPI backend, PostgreSQL, Vercel, Railway and GitHub-based version control/deployment workflow.
+
+The Swagger/OpenAPI layer can be used to inspect available routes, HTTP methods, request/response schemas and API structure. Public documentation does not imply public authorization to execute protected or administrative operations; sensitive flows must remain protected by authentication and role-based access control.
+
 ## Portfolio Navigable
 
 - [SchoolIA Training OS - principal engineering case](./projects/schoolia-training-os.md)
